@@ -22,7 +22,7 @@ Nom du groupe d'aventuriers (choisi par [[Salazar|Kevin]] lors de la rencontre a
 - [[Kanye]] (joueur : [[Alex]])
 
 > [!info] Joueurs
-> Le journal d'origine emploie parfois le nom du **joueur** à la place de celui de son personnage (voir [[Personnages (Drakkenheim)]] et [[Joueurs]]). MJ : **[[Chris]]**.
+> Le journal d'origine emploie parfois le nom du **joueur** à la place de celui de son personnage (voir [[Personnages (Drakkenheim)]] et [[Méta/Joueurs/index|Joueurs]]). MJ : **[[Chris]]**.
 
 ## Alliés & employeurs principaux
 - [[Hooded Lanterns]] (via [[Elias Drexel]])

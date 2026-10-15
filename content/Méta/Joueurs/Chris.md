@@ -23,5 +23,5 @@ avernus_personnage: "[[Ollie]]"
 > Comme toutes les fiches de ce dossier, celle de Chris est **unique** (les wikilinks d'Obsidian sont globaux) : elle relie ses deux tables. Index de campagne : [[Personnages (Drakkenheim)]] et [[Joueurs (Avernus)]].
 
 ## Lié à
-- [[Joueurs]] · [[Ollie]] · [[Les Hazebreakers]] · [[Personnages (Drakkenheim)]] · [[Joueurs (Avernus)]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Ollie]] · [[Les Hazebreakers]] · [[Personnages (Drakkenheim)]] · [[Joueurs (Avernus)]]
 - [[Drakkenheim Campagne]] · [[Descent Into Avernus Campagne]]

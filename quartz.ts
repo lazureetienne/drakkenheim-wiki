@@ -2,6 +2,7 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 import { registerCondition } from "./quartz/plugins/loader/conditions"
 import { componentRegistry } from "./quartz/components/registry"
 import FilteredGraph from "./quartz/components/FilteredGraph"
+import OrderedExplorer from "./quartz/components/OrderedExplorer"
 
 // Condition personnalisée, utilisable via `condition: is-index` dans quartz.config.yaml.
 // `not-index` (fournie par Quartz) est son exacte inverse : elle cible la racine `content/index.md`.
@@ -34,6 +35,23 @@ const LOCAL_SOURCE = "local:quartz/components/FilteredGraph"
 componentRegistry.register("Graph", FilteredGraph, LOCAL_SOURCE)
 componentRegistry.register("@quartz-community/graph", FilteredGraph, LOCAL_SOURCE)
 
+// ---------------------------------------------------------------------------
+// Explorateur : ordre imposé
+//
+// Le composant `explorer` de @quartz-community/explorer trie ses entrées
+// alphabétiquement (dossiers d'abord). Le site veut `Drakkenheim Campagne` en
+// premier et `Méta` en dernier : `OrderedExplorer` reprend le composant du
+// plugin en lui injectant un `sortFn` sur mesure.
+//
+// Même mécanisme que pour le graphe : les clés du registre sont occupées AVANT
+// `loadQuartzConfig()`, sans quoi les pages déjà construites garderaient le
+// composant du plugin.
+// ---------------------------------------------------------------------------
+const LOCAL_EXPLORER_SOURCE = "local:quartz/components/OrderedExplorer"
+
+componentRegistry.register("Explorer", OrderedExplorer, LOCAL_EXPLORER_SOURCE)
+componentRegistry.register("@quartz-community/explorer", OrderedExplorer, LOCAL_EXPLORER_SOURCE)
+
 const config = await loadQuartzConfig()
 export default config
 
@@ -61,6 +79,34 @@ if (replacedGraphKeys === 0) {
 } else {
   console.log(
     `FilteredGraph: composant local installé (${replacedGraphKeys} clé(s) du plugin redirigée(s), option excludeTags).`,
+  )
+}
+
+// Seconde phase, pour l'explorateur : "<plugin>/Explorer" a été enregistrée
+// inconditionnellement par le chargeur et pointe encore sur le composant du
+// plugin. Sans ce nettoyage, getAllComponents() verrait DEUX constructeurs
+// distincts et le script client de l'explorateur serait embarqué deux fois
+// (arbre construit deux fois dans le même bloc).
+let replacedExplorerKeys = 0
+
+componentRegistry.getAll().forEach((registered, key) => {
+  // `source` vaut le nom du plugin pour toutes ses clés.
+  if (!registered.source.includes("explorer")) return
+  // Clés déjà remplacées en phase 1 (source locale).
+  if (registered.component === OrderedExplorer) return
+
+  componentRegistry.register(key, OrderedExplorer, LOCAL_EXPLORER_SOURCE, registered.manifest)
+  replacedExplorerKeys++
+})
+
+if (replacedExplorerKeys === 0) {
+  console.warn(
+    "OrderedExplorer: aucune clé de plugin explorateur trouvée après le chargement de la configuration. " +
+      "Vérifier que `@quartz-community/explorer` est toujours déclaré dans quartz.config.yaml.",
+  )
+} else {
+  console.log(
+    `OrderedExplorer: composant local installé (${replacedExplorerKeys} clé(s) du plugin redirigée(s), option sortFn).`,
   )
 }
 

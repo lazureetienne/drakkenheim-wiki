@@ -24,4 +24,4 @@ avernus_personnage_2: "[[Wyll Ravengard]]"
 Le journal de Drakkenheim emploie parfois le nom du joueur (« Xav ») à la place de celui de son personnage : la *wild magic*, le **phénix** et la **licorne** « de Xav » sont donc bien ceux de **[[Salazar]]**.
 
 ## Lié à
-- [[Joueurs]] · [[Salazar]] · [[Tarino]] · [[Joueurs (Avernus)]] · [[Personnages (Drakkenheim)]] · [[Drakkenheim Campagne]] · [[Descent Into Avernus Campagne]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Salazar]] · [[Tarino]] · [[Joueurs (Avernus)]] · [[Personnages (Drakkenheim)]] · [[Drakkenheim Campagne]] · [[Descent Into Avernus Campagne]]

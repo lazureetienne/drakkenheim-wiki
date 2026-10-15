@@ -21,7 +21,7 @@ date_maj: 2026-06-22
 > Les faits proviennent **uniquement** du journal d'origine ; les rares points encore flous sont signalés par un callout.
 > **Dates** : format `JJ/MM` → **2025** pour les séances de mars à décembre, puis **2026** (années réelles ; la campagne a commencé en 2025). Les mois « in-game » ne sont pas vraiment comptés.
 > **Joueurs vs personnages** : le journal nomme parfois le **joueur** à la place de son personnage — « Alex » → **[[Kanye]]** (Kanye de l'Ouest) · « Xav » → **[[Salazar]]** · « Félix » → **[[Gardakonne]]** (Garda Von Konne, ♀) · « Laze » → **[[Olum]]** (Olum Arzum) · « Marin » → **[[Mike]]** (Mike Rizzowski) ; MJ : **[[Chris]]** (voir [[Personnages (Drakkenheim)]]).
-> **Fiches de joueurs** : les personnes de la table (MJ et joueurs) ont leur fiche dans **[[Joueurs]]**, sous le dossier [[Méta|Méta]] → `Méta/Joueurs/` ; celles de [[Chris]], [[Xav]], [[Étienne (Laze)|Étienne « Laze »]] et [[Marin]] servent aussi à une autre campagne.
+> **Fiches de joueurs** : les personnes de la table (MJ et joueurs) ont leur fiche dans **[[Méta/Joueurs/index|Joueurs]]**, sous le dossier [[Méta|Méta]] → `Méta/Joueurs/` ; celles de [[Chris]], [[Xav]], [[Étienne (Laze)|Étienne « Laze »]] et [[Marin]] servent aussi à une autre campagne.
 > **À ne pas confondre** : la reine **[[Lenore von Kessel]]** ≠ la **[[The Queen of Thieves|Queen of Thieves]]** (cheffe des [[Les Queensmen|Queensmen]]) ≠ **[[La Duchesse]]** (entité monstrueuse des égouts).
 
 ---

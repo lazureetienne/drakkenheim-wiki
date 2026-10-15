@@ -20,4 +20,4 @@ aliases: []
 Le journal d'origine emploie parfois le nom du joueur (« Félix ») à la place de celui de son personnage → dans ces passages, il s'agit bien de **[[Gardakonne]]**.
 
 ## Lié à
-- [[Joueurs]] · [[Personnages (Drakkenheim)]] · [[Les Hazebreakers]] · [[Drakkenheim Campagne]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Personnages (Drakkenheim)]] · [[Les Hazebreakers]] · [[Drakkenheim Campagne]]

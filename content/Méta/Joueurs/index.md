@@ -8,7 +8,8 @@ tags:
 
 %% Fichier genere par drakkenheim-publish.ps1 : il n'existe pas dans le vault.
    Seules les notes publiees sont listees. Pour ecrire cette page a la main,
-   creez Drakkenheim\Joueurs.md dans le vault : le script la respectera. %%
+   creez Drakkenheim\Joueurs.md dans le vault : le script publiera son
+   contenu ici meme (Méta\Joueurs\index.md). %%
 
 # Joueurs
 

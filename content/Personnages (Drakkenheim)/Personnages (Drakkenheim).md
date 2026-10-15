@@ -27,7 +27,7 @@ Index de tous les personnages (PJ et PNJ) de la campagne. Voir aussi les [[Facti
 
 ## 🎲 Joueurs (méta)
 
-Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueurs/` (voir **[[Joueurs]]**) : une seule fiche par personne, même si elle joue ailleurs. Le journal d'origine emploie parfois leur nom à la place de celui de leur personnage.
+Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueurs/` (voir **[[Méta/Joueurs/index|Joueurs]]**) : une seule fiche par personne, même si elle joue ailleurs. Le journal d'origine emploie parfois leur nom à la place de celui de leur personnage.
 
 | Fichier | Rôle | Personnage joué |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueur
 - [[Marin]] — joue [[Mike]] (Mike Rizzowski)
 
 > [!info] Une seule fiche par personne
-> Les fiches de joueurs vivent dans **[[Joueurs]]** (`Méta/Joueurs/`), pas dans ce dossier : chaque personne n'a qu'une fiche, même si elle joue à plusieurs tables ([[Chris]], [[Xav]], [[Étienne (Laze)|Laze]] et [[Marin]]).
+> Les fiches de joueurs vivent dans **[[Méta/Joueurs/index|Joueurs]]** (`Méta/Joueurs/`), pas dans ce dossier : chaque personne n'a qu'une fiche, même si elle joue à plusieurs tables ([[Chris]], [[Xav]], [[Étienne (Laze)|Laze]] et [[Marin]]).
 
 ## 🧑 PNJ
 

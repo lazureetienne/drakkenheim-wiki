@@ -24,4 +24,4 @@ Le journal d'origine emploie parfois le nom du joueur (« Alex ») à la place d
 - (12/20) « Alex apprend » le **sort de décontamination** → **[[Kanye]]** ([[Séance 2025-12-20 — Trahison à Camp Dawn]]).
 
 ## Lié à
-- [[Joueurs]] · [[Personnages (Drakkenheim)]] · [[Les Hazebreakers]] · [[Contamination (règle)]] · [[Drakkenheim Campagne]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Personnages (Drakkenheim)]] · [[Les Hazebreakers]] · [[Contamination (règle)]] · [[Drakkenheim Campagne]]

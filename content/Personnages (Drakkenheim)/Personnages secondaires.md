@@ -29,7 +29,7 @@ Ajouts mineurs, figurants et personnages peu documentés. À promouvoir en note 
 - **Le sbire Wounded Heart** — interrogé, s'échappe avec une cuisse de poulet.
 
 ## Méta (joueurs / table)
-[[Félix]], [[Étienne (Laze)|Laze]], [[Marin]], [[Alex]] et [[Xav]] sont des **joueurs**, pas des personnages : Félix → [[Gardakonne]], Laze → [[Olum]], Marin → [[Mike]], Alex → [[Kanye]], Xav → [[Salazar]] ; le MJ est **[[Chris]]**. Voir la section *Joueurs* de [[Personnages (Drakkenheim)]] et les **fiches de joueurs** regroupées dans [[Joueurs]].
+[[Félix]], [[Étienne (Laze)|Laze]], [[Marin]], [[Alex]] et [[Xav]] sont des **joueurs**, pas des personnages : Félix → [[Gardakonne]], Laze → [[Olum]], Marin → [[Mike]], Alex → [[Kanye]], Xav → [[Salazar]] ; le MJ est **[[Chris]]**. Voir la section *Joueurs* de [[Personnages (Drakkenheim)]] et les **fiches de joueurs** regroupées dans [[Méta/Joueurs/index|Joueurs]].
 
 ## Lié à
 - [[Personnages (Drakkenheim)]] · [[Drakkenheim Campagne]]

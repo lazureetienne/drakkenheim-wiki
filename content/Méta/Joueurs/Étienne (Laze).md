@@ -29,5 +29,5 @@ aliases:
 > Le journal de Drakkenheim emploie parfois le nom du joueur (« Laze ») à la place de son personnage → **[[Olum]]**. Comme il est aussi [[Joueurs (Witchlight)|MJ de Witchlight]] et [[Joueurs (Avernus)|MJ d'Avernus]], sa fiche est unique et conservée ici.
 
 ## Lié à
-- [[Joueurs]] · [[Olum]] · [[Personnages (Drakkenheim)]] · [[Joueurs (Witchlight)]] · [[Joueurs (Avernus)]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Olum]] · [[Personnages (Drakkenheim)]] · [[Joueurs (Witchlight)]] · [[Joueurs (Avernus)]]
 - [[Drakkenheim Campagne]] · [[Wild Beyond the Witchlight Campagne]] · [[Descent Into Avernus Campagne]]

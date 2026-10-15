@@ -27,4 +27,4 @@ aliases:
 > Le journal de Drakkenheim emploie parfois le nom du joueur (« Marin ») à la place de son personnage → **[[Mike]]** ; dans l'import d'*Avernus*, son personnage apparaît aussi sous « DaShawn ».
 
 ## Lié à
-- [[Joueurs]] · [[Mike]] · [[DeShawn]] · [[Joueurs (Avernus)]] · [[Personnages (Drakkenheim)]] · [[Drakkenheim Campagne]] · [[Descent Into Avernus Campagne]]
+- [[Méta/Joueurs/index|Joueurs]] · [[Mike]] · [[DeShawn]] · [[Joueurs (Avernus)]] · [[Personnages (Drakkenheim)]] · [[Drakkenheim Campagne]] · [[Descent Into Avernus Campagne]]

@@ -163,6 +163,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    # L'ordre de l'arbre est imposé par un composant local :
+    # quartz/components/OrderedExplorer.tsx (Drakkenheim Campagne en tête, Méta
+    # en queue, alphabétique partout ailleurs).
     layout:
       position: left
       priority: 50
