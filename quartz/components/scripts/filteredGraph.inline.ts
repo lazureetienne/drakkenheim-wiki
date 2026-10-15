@@ -116,13 +116,18 @@ import {
       var scale = config.scale || 1;
       var repelForce = config.repelForce || 0.5;
       var centerForce = config.centerForce || 0.3;
+      var linkStrength = config.linkStrength ?? 1;
       var linkDistance = config.linkDistance || 30;
+      var nodeSize = config.nodeSize ?? 1;
+      var linkThickness = config.linkThickness ?? 1;
+      var textFadeThreshold = config.textFadeThreshold ?? 1;
       var fontSize = config.fontSize || 0.6;
       var opacityScale = config.opacityScale || 1;
       var removeTags = config.removeTags || [];
       var excludeTags = config.excludeTags || [];
       var excludePaths = config.excludePaths || [];
       var showTags = config.showTags;
+      var showLabels = config.showLabels !== false;
       var focusOnHover = config.focusOnHover;
       var enableRadial = config.enableRadial;
 
@@ -144,7 +149,10 @@ import {
       // le préfixe lui-même (page du dossier) ou commence par "préfixe/".
       function isExcludedByPath(nodeSlug) {
         for (var pi = 0; pi < excludePaths.length; pi++) {
-          var prefix = String(excludePaths[pi]).toLowerCase().replace(/^\/+/, "").replace(/\/+$/, "");
+          var prefix = String(excludePaths[pi])
+            .toLowerCase()
+            .replace(/^\/+/, "")
+            .replace(/\/+$/, "");
           if (prefix === "") continue;
           if (nodeSlug === prefix || nodeSlug.indexOf(prefix + "/") === 0) {
             return true;
@@ -294,7 +302,7 @@ import {
         .forceSimulation(nodes)
         .force("charge", d3.forceManyBody().strength(-100 * repelForce))
         .force("center", d3.forceCenter().strength(centerForce))
-        .force("link", d3.forceLink(graphLinks).distance(linkDistance))
+        .force("link", d3.forceLink(graphLinks).distance(linkDistance).strength(linkStrength))
         .force(
           "collide",
           d3
@@ -306,7 +314,7 @@ import {
                   numLinks++;
                 }
               }
-              return 2 + Math.sqrt(numLinks);
+              return (2 + Math.sqrt(numLinks)) * nodeSize;
             })
             .iterations(3),
         );
@@ -338,7 +346,7 @@ import {
             numLinks++;
           }
         }
-        return 2 + Math.sqrt(numLinks);
+        return (2 + Math.sqrt(numLinks)) * nodeSize;
       }
 
       function nodeColor(d) {
@@ -402,6 +410,8 @@ import {
       }
 
       function renderLabels() {
+        if (!showLabels) return;
+
         var defaultScale = 1 / scale;
         var activeScale = defaultScale * 1.1;
 
@@ -450,7 +460,7 @@ import {
           resolution: window.devicePixelRatio * 4,
         });
         label.anchor.set(0.5, 1.2);
-        label.alpha = 0;
+        label.alpha = showLabels ? Math.max((opacityScale - textFadeThreshold) / 3.75, 0) : 0;
         label.scale.set(1 / scale);
         labelsContainer.addChild(label);
 
@@ -592,7 +602,9 @@ import {
           stage.position.set(currentTransform.x, currentTransform.y);
 
           var newScale = currentTransform.k * opacityScale;
-          var scaleOpacity = Math.max((newScale - 1) / 3.75, 0);
+          var scaleOpacity = Math.max((newScale - textFadeThreshold) / 3.75, 0);
+
+          if (!showLabels) return;
 
           var activeLabels = [];
           for (var i = 0; i < nodeRenderData.length; i++) {
@@ -648,7 +660,7 @@ import {
             l.gfx.clear();
             l.gfx.moveTo(sx + width / 2, sy + height / 2);
             l.gfx.lineTo(tx + width / 2, ty + height / 2);
-            l.gfx.stroke({ alpha: l.alpha, width: 1, color: l.color });
+            l.gfx.stroke({ alpha: l.alpha, width: linkThickness, color: l.color });
           }
         }
 
@@ -798,6 +810,12 @@ import {
       }
       documentClickHandler = function (e) {
         if (anyGlobalGraphActive()) {
+          var closeButton = e.target.closest(".global-graph-close");
+          if (closeButton) {
+            hideGlobalGraph();
+            return;
+          }
+
           var inContainer = e.target.closest(".global-graph-container");
           var inIcon = e.target.closest(".global-graph-icon");
           if (!inContainer && !inIcon) {

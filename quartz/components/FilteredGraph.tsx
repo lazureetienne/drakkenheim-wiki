@@ -43,11 +43,16 @@ export interface D3Config {
   scale: number;
   repelForce: number;
   centerForce: number;
+  linkStrength: number;
   linkDistance: number;
+  nodeSize: number;
+  linkThickness: number;
+  textFadeThreshold: number;
   fontSize: number;
   opacityScale: number;
   removeTags: string[];
   showTags: boolean;
+  showLabels?: boolean;
   focusOnHover?: boolean;
   enableRadial?: boolean;
   /** Tags dont les notes sont retirées du graphe (ex. ["excludeInGraph"]). */
@@ -79,7 +84,11 @@ const defaultOptions: GraphOptions = {
     scale: 1.1,
     repelForce: 0.5,
     centerForce: 0.3,
+    linkStrength: 1,
     linkDistance: 30,
+    nodeSize: 1,
+    linkThickness: 1,
+    textFadeThreshold: 1,
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
@@ -94,7 +103,11 @@ const defaultOptions: GraphOptions = {
     scale: 0.9,
     repelForce: 0.5,
     centerForce: 0.2,
+    linkStrength: 1,
     linkDistance: 30,
+    nodeSize: 1,
+    linkThickness: 1,
+    textFadeThreshold: 1,
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
@@ -108,8 +121,18 @@ export default ((userOpts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const excludeTags = userOpts?.excludeTags ?? [];
     const excludePaths = userOpts?.excludePaths ?? [];
-    const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph, excludeTags, excludePaths };
-    const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph, excludeTags, excludePaths };
+    const localGraph = {
+      ...defaultOptions.localGraph,
+      ...userOpts?.localGraph,
+      excludeTags,
+      excludePaths,
+    };
+    const globalGraph = {
+      ...defaultOptions.globalGraph,
+      ...userOpts?.globalGraph,
+      excludeTags,
+      excludePaths,
+    };
 
     return (
       <div class={classNames(displayClass, "graph")}>
@@ -145,6 +168,11 @@ export default ((userOpts?: Partial<GraphOptions>) => {
         </div>
         <div class="global-graph-outer">
           <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
+          <button class="global-graph-close" type="button" aria-label="Fermer le graphe agrandi">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
         </div>
       </div>
     );

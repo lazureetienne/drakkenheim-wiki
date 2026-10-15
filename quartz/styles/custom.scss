@@ -22,6 +22,11 @@
   margin-top: 1rem;
 }
 
+// Le thème annule la marge supérieure du titre qui suit le tableau d'accueil.
+body[data-slug="index"] article .table-container + h2 {
+  margin-top: 1.9rem;
+}
+
 // --- Libellé « Propriétés » ------------------------------------------------------
 // Le plugin @quartz-community/note-properties n'embarque que l'anglais : son titre
 // reste « Properties » même avec locale: fr-FR. On masque le texte d'origine

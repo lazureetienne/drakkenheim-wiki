@@ -12,3 +12,8 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+/.github/copilot-instructions.md
+/.github/skills
+/drakkenheim-publish.ps1
+/publish-drakkenheim.ps1
+/publish-drakkenheim.cmd

@@ -176,11 +176,35 @@ plugins:
       # Option propre à la version locale du composant : quartz/components/FilteredGraph.tsx
       excludeTags:
         - excludeInGraph
+        - lexique
       # Dossiers entiers absents du graphe (préfixe de slug). Les séances sont
       # nombreuses et très connectées : elles écrasaient la miniature. Dans la
       # miniature d'une page de séance, la séance elle-même reste la racine.
       excludePaths:
         - seances
+        - templates
+      localGraph:
+        showTags: false
+        showLabels: false
+        repelForce: 0.5
+        centerForce: 0.3
+        linkStrength: 1
+        linkDistance: 30
+        nodeSize: 1
+        linkThickness: 1
+        enableRadial: false
+      globalGraph:
+        # Le bouton plein écran conserve le sous-graphe de la page courante.
+        depth: 1
+        showTags: false
+        repelForce: 10.3
+        centerForce: 0.5
+        linkStrength: 0.9
+        linkDistance: 134
+        nodeSize: 1
+        linkThickness: 1.05
+        textFadeThreshold: -1
+        enableRadial: false
     layout:
       position: right
       priority: 10
@@ -195,26 +219,42 @@ plugins:
       # Option propre à la version locale du composant : quartz/components/FilteredGraph.tsx
       excludeTags:
         - excludeInGraph
+        - lexique
       # Dossiers entiers absents du graphe : sur la page d'accueil, les séances
       # (≈ 40 notes très connectées) saturaient le graphe de campagne.
       excludePaths:
         - seances
+        - templates
       localGraph:
         depth: -1
         scale: 0.9
-        repelForce: 0.5
-        centerForce: 0.2
-        linkDistance: 30
+        repelForce: 10.3
+        centerForce: 0.5
+        linkStrength: 0.9
+        linkDistance: 134
+        nodeSize: 1
+        linkThickness: 1.05
+        textFadeThreshold: -1
         fontSize: 0.6
         opacityScale: 1
         drag: true
         zoom: true
         showTags: false
         focusOnHover: true
-        enableRadial: true
+        enableRadial: false
       globalGraph:
+        # Depuis l'accueil, le bouton ouvre la vue complète du wiki.
         depth: -1
         showTags: false
+        scale: 0.9
+        repelForce: 10.3
+        centerForce: 0.5
+        linkStrength: 0.9
+        linkDistance: 134
+        nodeSize: 1
+        linkThickness: 1.05
+        textFadeThreshold: -1
+        enableRadial: false
     layout:
       position: afterBody
       priority: 20
