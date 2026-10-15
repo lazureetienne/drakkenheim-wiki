@@ -39,3 +39,29 @@
     top: 0;
   }
 }
+
+// --- Liens : aucun fond surligné ---------------------------------------------------
+// Le thème Obsidian (@quartz-themes/core, thème "default") définit
+// `--highlight: var(--text-highlight-bg)` = rgba(255, 208, 0, 0.4), à savoir le
+// jaune d'Obsidian, et Quartz s'en sert comme FOND des liens internes
+// (`a.internal { background-color: var(--highlight) }` dans les styles de base,
+// et `body a.internal-link { background-color: rgb(from var(--highlight) r g b
+// / 0.3) }` côté thème). Les liens — liens internes comme tags `#comme-ceci` —
+// apparaissaient donc surlignés en jaune.
+//
+// On ne garde que la couleur du texte. Ces règles sont émises hors de
+// `@layer quartz-base` (voir quartz/plugins/emitters/componentResources.ts),
+// or un style hors layer l'emporte sur TOUS les layers, quelle que soit sa
+// spécificité : inutile de forcer ici, même face au thème.
+a.internal,
+a.internal-link,
+a.tag-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  line-height: inherit;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
