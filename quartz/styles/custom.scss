@@ -47,15 +47,21 @@
 // (`a.internal { background-color: var(--highlight) }` dans les styles de base,
 // et `body a.internal-link { background-color: rgb(from var(--highlight) r g b
 // / 0.3) }` côté thème). Les liens — liens internes comme tags `#comme-ceci` —
-// apparaissaient donc surlignés en jaune.
+// apparaissaient donc surlignés en jaune, de même que les pastilles du panneau
+// « Propriétés » (`.note-properties-tags .tag-link { background: var(--highlight) }`).
 //
 // On ne garde que la couleur du texte. Ces règles sont émises hors de
 // `@layer quartz-base` (voir quartz/plugins/emitters/componentResources.ts),
 // or un style hors layer l'emporte sur TOUS les layers, quelle que soit sa
 // spécificité : inutile de forcer ici, même face au thème.
-a.internal,
-a.internal-link,
-a.tag-link {
+//
+// Exception : les pastilles de la liste de tags (`ul.tags > li > a`) sont
+// conservées telles quelles. Leur fond n'est pas le jaune d'Obsidian
+// (`--pill-background` = `--tag-background` = accent à 10 %) et le thème porte
+// leur padding/arrondi sur le <a> lui-même : les aplatir déformerait la pastille.
+a.internal:not(ul.tags a),
+a.internal-link:not(ul.tags a),
+a.tag-link:not(ul.tags a) {
   background-color: transparent;
   border-radius: 0;
   padding: 0;
