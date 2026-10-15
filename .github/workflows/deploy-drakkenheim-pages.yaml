@@ -1,0 +1,73 @@
+# Deploiement du wiki Drakkenheim sur GitHub Pages.
+#
+# Ce workflow ne fait que *construire* le site a partir du dossier `content/`
+# deja commite, puis le publier. Le contenu vient de la sync locale :
+#   Obsidian Vault\Drakkenheim\  ->  content/     (script drakkenheim-publish.ps1)
+# La sync a besoin du vault Obsidian (et de PowerShell), elle reste donc locale.
+# Pour mettre le site a jour : relancer le script, commiter, pousser.
+#
+# Prerequis cote depot GitHub : Settings > Pages > Source = "GitHub Actions".
+# (l'etape configure-pages ci-dessous tente de l'activer automatiquement)
+#
+# Le URL publique depend du nom du depot : https://<compte>.github.io/<depot>/
+# et doit correspondre a `baseUrl` dans quartz.config.yaml
+# (actuellement : lazureetienne.github.io/drakkenheim-wiki).
+
+name: Deploy Drakkenheim Wiki
+
+on:
+  push:
+    branches:
+      - main
+      - v5
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un seul deploiement a la fois, sans annuler celui en cours.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Quartz
+        run: npx quartz build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+        with:
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

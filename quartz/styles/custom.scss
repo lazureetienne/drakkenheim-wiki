@@ -1,3 +1,41 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// --- Graphe de la page d'accueil -------------------------------------------------
+// Le graphe placé dans le corps de page (position `afterBody`) est rendu dans
+// `.page-footer` : on agrandit son cadre, qui fait 250px par défaut (taille
+// pensée pour la colonne de droite).
+.page-footer .graph > .graph-outer {
+  height: 65vh;
+  min-height: 380px;
+  max-height: 620px;
+
+  @media all and (max-width: 800px) {
+    height: 55vh;
+    min-height: 300px;
+  }
+}
+
+// Léger retrait avant le graphe pour l'aérer sous le texte
+.page-footer .graph {
+  margin-top: 1rem;
+}
+
+// --- Libellé « Propriétés » ------------------------------------------------------
+// Le plugin @quartz-community/note-properties n'embarque que l'anglais : son titre
+// reste « Properties » même avec locale: fr-FR. On masque le texte d'origine
+// (visibility: hidden, qui conserve la mise en page) et on affiche le libellé
+// français par-dessus. À retirer si le plugin finit par fournir une traduction.
+.note-properties-title {
+  visibility: hidden;
+  position: relative;
+
+  &::after {
+    content: "Propriétés";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
