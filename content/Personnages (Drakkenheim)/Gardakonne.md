@@ -16,7 +16,9 @@ aliases:
 # Garda Von Konne
 
 Nom complet : **Garda Von Konne** (dite **Gardakonne** / **Garda**) — **femme** (seule PJ féminine du groupe).
-**Nièce** d'[[Olum]] (révélation dans les [[Shadow Lands]], voir [[Séance 2026-05-11 — Shadow Lands]]) : sa **mère** est la sœur d'Olum. **1/4 orc** (demi-orc selon les règles de la 5e édition).
+**Nièce** d'[[Olum]] (révélation dans les [[Shadow Lands]], voir [[Séance 2026-05-11 — Shadow Lands]]) : sa **mère** est **Yasmina Arzum**, la sœur d'Olum — elle a eu cette liaison avec un humain de la **famille Konne** qui a causé la disgrâce des Arzum (voir [[Olum]]). **1/4 orc** (demi-orc selon les règles de la 5e édition).
+
+- **Illégitimité** : le fait qu'Yasmina ait eu un enfant en étant **célibataire** est connu des nobles et du public, mais l'**identité de l'enfant** est un secret bien gardé — Gardakonne n'a que **très peu de traits d'orc visibles**, ce qui a aidé à la protéger.
 
 ## Profil
 - Originaire de **[[Caspia]]** (elle reconnaît que les *Jackson* sont une famille caspienne).

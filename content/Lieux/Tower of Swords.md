@@ -8,7 +8,10 @@ status: inconnu
 ---
 # Tower of Swords
 
-**Académie** hors de Drakkenheim où **[[Mike]]** a étudié dès l'enfance avant d'être **expulsé**.
+**Capitale** de la nation de [[Caspia]].
+
+- Abrite le **Rex Colosseum**, l'arène où [[Olum]] a combattu pendant de longues années.
+- **[[Mike]]** y a étudié dès l'enfance (une **académie** de la ville) avant d'être **expulsé**.
 
 ## Lié à
-- [[Mike]] · [[Amethyst Academy]]
+- [[Caspia]] · [[Mike]] · [[Olum]] · [[Amethyst Academy]]

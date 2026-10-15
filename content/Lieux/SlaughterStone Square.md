@@ -6,7 +6,7 @@ tags:
 region: Drakkenheim
 status: dangereux
 ---
-# SlaughterStone Square
+# Slaughterstone Square
 
 Place de **[[Drakkenheim]]**, connue pour son **gros loot** (exploration partielle).
 
@@ -17,4 +17,4 @@ Place de **[[Drakkenheim]]**, connue pour son **gros loot** (exploration partiel
 
 ## Lié à
 - [[Drakkenheim]] · [[La Duchesse]]
-- Séances : [[Séance 2025-05-05 — SlaughterStone Square]] · [[Séance 2025-05-12 — L'hydre et les égouts]]
+- Séances : [[Séance 2025-05-05 — Slaughterstone Square]] · [[Séance 2025-05-12 — L'hydre et les égouts]]

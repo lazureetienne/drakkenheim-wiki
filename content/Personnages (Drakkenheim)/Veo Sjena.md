@@ -7,9 +7,10 @@ faction: Indépendant
 status: vivant
 classe: PNJ
 aliases:
-  - Véo Sjena
+  - Veo Segna
+  - Véo
 ---
-# Veo Segna
+# Veo Sjena
 
 Rencontrée sous la forme d'**une chatte** apparaissant juste derrière [[Gardakonne]].
 - Demande au groupe : « Qu'est-ce qui vous amène dans cette ville en ruine ? »

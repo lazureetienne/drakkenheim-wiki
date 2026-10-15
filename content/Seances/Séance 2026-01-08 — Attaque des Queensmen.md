@@ -17,7 +17,7 @@ resume: Défaite des Queensmen au Smithy ; interrogatoire Wounded Heart ; rencon
 	- Le sbire **s'échappe** avec une cuisse de poulet.
 - **Éloïse** : merci pour l'attaque, mais **inquiétude** (les Queensmen s'en prennent aux Hooded Lanterns). **Gertrude** et **Mordecai** sont *paff*.
 - **Side quest** : parler à **[[Elias Drexel|Drexel]]** des **troupes d'Éloïse**.
-- Rencontre de **[[Pluto Jackson]]**, **[[Sebastien Crowe]]**, **[[Veo Segna]]** (discussion magie / contamination).
+- Rencontre de **[[Pluto Jackson]]**, **[[Sebastien Crowe]]**, **[[Veo Sjena]]** (discussion magie / contamination).
 - Retour à **Emberwood** ; les **nains remercient** le groupe.
 
 ## Lié à

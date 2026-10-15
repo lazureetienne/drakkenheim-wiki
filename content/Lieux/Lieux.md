@@ -67,7 +67,7 @@ Villes, quartiers, donjons et points d'intérêt de Drakkenheim et du royaume.
 - [[Smithy on the Scar]]
 - [[Crowe & Sons Smithy]]
 - [[Buckledown Row]]
-- [[SlaughterStone Square]]
+- [[Slaughterstone Square]]
 - [[Château de Drakkenheim]]
 - [[Cathédrale de Saint Virtuvio]]
 - [[Chapel of Saint Arena]]

@@ -12,6 +12,7 @@ resume: TP dans une autre dimension ; le Far Dweller nous défonce (cliffhanger,
 - **TP dans une autre dimension** ; combat contre un **[[Far Dweller]] Mastermind**.
 - Révélation : les **météorites** sont pleines de **délirium** — « le délirium a poussé sur les météorites **comme une plante** ».
 - La séance **finit sur un cliffhanger** : **tout le monde *down***, le Far Dweller nous a défoncés.
+- Ce **TPK**, dans le **[[Space Between Realms]]** (« plan astral »), est ce qui envoie le groupe aux **[[Shadow Lands]]** (voir [[Séance 2026-05-11 — Shadow Lands]]).
 
 ## Lié à
-- [[Far Dweller]] · [[Vaincre le Far Dweller]] · [[Delirium]]
+- [[Far Dweller]] · [[Vaincre le Far Dweller]] · [[Delirium]] · [[Shadow Lands]] · [[Space Between Realms]]

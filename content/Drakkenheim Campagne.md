@@ -108,7 +108,7 @@ date_maj: 2026-06-22
 | [[The Queen of Thieves]] | Les Queensmen | vivante |
 | [[Theodore Marshall]] | Silver Order | vivant |
 | [[Tobias Crowe]] | Indépendant | vivant |
-| [[Veo Segna]] | Indépendant | vivant |
+| [[Veo Sjena]] | Indépendant | vivant |
 | [[Veronica]] | Les Queensmen | vivante |
 | [[Virgil]] | Indépendant | vivant |
 

@@ -19,7 +19,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2025-04-07 — Retour au Garden]] | 2025-04-07 | Retour au Garden ; rencontre avec Petra ; pas encore de fleur. |
 | [[Séance 2025-04-14 — La Reine Lenore]] | 2025-04-14 | Rencontre avec la Reine Lenore (contaminée) ; la rod échoue ; cap sur Oscar. |
 | [[Séance 2025-04-28 — Oscar et la potion anti-haze]] | 2025-04-28 | Oscar et la potion anti-haze ; mindfuck au College Gate ; soldats mutants. |
-| [[Séance 2025-05-05 — SlaughterStone Square]] | 2025-05-05 | SlaughterStone Square — robot tueur, « méduses », arrivée d'un dragon. |
+| [[Séance 2025-05-05 — SlaughterStone Square]] | 2025-05-05 | Slaughterstone Square — robot tueur, « méduses », arrivée d'un dragon. |
 | [[Séance 2025-05-12 — L'hydre et les égouts]] | 2025-05-12 | L'hydre, fuite devant la Duchesse, égouts (zombies, gelée, fishfolks). |
 | [[Séance 2025-05-19 — Vers Temple Gate]] | 2025-05-19 | Vers Camp Dawn — minotaures, ~30 hyènes, détour par Shepard's Gate. |
 | [[Séance 2025-05-26 — Camp Dawn]] | 2025-05-26 | Camp Dawn — conditions pour apprendre le sort de décontamination. |
@@ -70,7 +70,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 - [[Séance 2025-04-07 — Retour au Garden]]
 - [[Séance 2025-04-14 — La Reine Lenore]]
 - [[Séance 2025-04-28 — Oscar et la potion anti-haze]]
-- [[Séance 2025-05-05 — SlaughterStone Square]]
+- [[Séance 2025-05-05 — Slaughterstone Square]]
 - [[Séance 2025-05-12 — L'hydre et les égouts]]
 - [[Séance 2025-05-19 — Vers Temple Gate]]
 - [[Séance 2025-05-26 — Camp Dawn]]

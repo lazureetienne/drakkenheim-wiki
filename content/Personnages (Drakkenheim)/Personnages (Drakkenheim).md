@@ -78,7 +78,7 @@ Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueur
 | [[Sebastien Crowe]] | Indépendant | vivant |
 | [[Stix]] | Indépendant | vivant |
 | [[Tobias Crowe]] | Indépendant | vivant |
-| [[Veo Segna]] | Indépendant | vivant |
+| [[Veo Sjena]] | Indépendant | vivant |
 | [[Virgil]] | Indépendant | vivant |
 | [[Black Jack Mel]] | Les Queensmen | vivant |
 | [[Christian Lament]] | Les Queensmen | vivant |
