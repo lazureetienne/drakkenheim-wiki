@@ -6,8 +6,18 @@
 # La sync a besoin du vault Obsidian (et de PowerShell), elle reste donc locale.
 # Pour mettre le site a jour : relancer le script, commiter, pousser.
 #
-# Prerequis cote depot GitHub : Settings > Pages > Source = "GitHub Actions".
-# (l'etape configure-pages ci-dessous tente de l'activer automatiquement)
+# Prerequis cote depot GitHub, a faire UNE fois a la main :
+#   Settings > Pages > "Build and deployment" > Source = "GitHub Actions".
+#
+# Cette etape ne peut pas etre faite par le workflow : l'option
+# `enablement: true` de configure-pages exige un jeton autre que le
+# GITHUB_TOKEN fourni par Actions (un PAT avec le scope `repo`, ou une
+# GitHub App avec `administration:write` et `pages:write`). Avec le jeton par
+# defaut, l'API repond "Resource not accessible by integration".
+#
+# Attention aussi : GitHub Pages n'est disponible pour un depot PRIVE que sur
+# une offre payante (Pro/Team/Enterprise). Sur l'offre gratuite, le depot doit
+# etre public (Settings > General > Danger Zone > Change visibility).
 #
 # Le URL publique depend du nom du depot : https://<compte>.github.io/<depot>/
 # et doit correspondre a `baseUrl` dans quartz.config.yaml
@@ -34,7 +44,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Version epinglee volontairement : le label `ubuntu-latest` migre vers
+    # Ubuntu 26 a partir du 19/10/2026.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -51,10 +63,11 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
+      # Pas d'option `enablement` ici : voir l'en-tete du fichier.
+      # Cette etape lit la configuration Pages du depot (et sort base_path,
+      # origin, etc. utiles pour verifier que baseUrl est coherent).
       - name: Setup Pages
         uses: actions/configure-pages@v6
-        with:
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
@@ -63,7 +76,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
