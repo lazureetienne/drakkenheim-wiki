@@ -12,28 +12,35 @@ aliases:
 Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenheim Campagne#🎯 Le plan|plan de campagne]].
 
 ## À faire / en cours
-```dataview
-TABLE commanditaire AS "Commanditaire", status AS "Statut"
-FROM "Drakkenheim/Quetes"
-WHERE type = "quete" AND status = "en cours"
-SORT file.name ASC
-```
+| Fichier | Commanditaire | Statut |
+| --- | --- | --- |
+| [[Allumer la grande flamme de la cathédrale]] | Intérêt du groupe | en cours |
+| [[Déloger la Queen of Thieves]] | [[Les Hazebreakers]] (initiative propre) | en cours |
+| [[Explorer le cratère]] | Intérêt du groupe | en cours |
+| [[Investiguer la Duchesse]] | Intérêt du groupe | en cours |
+| [[La Iron Banshee et le Rose Theatre]] | [[Ryan Graymere]] (contact) | en cours |
+| [[Le passage secret de King's Gate]] | Inconnu | en cours |
+| [[Le vault des Von Kessel]] | Intérêt du groupe | en cours |
+| [[Les nains et Smithy on the Scar]] | [[Les nains de Drakkenheim]] | en cours |
+| [[Les reliques de Saint Virtuvio]] | [[Lucretia Mathias]] (implicite) | en cours |
+| [[Obtenir le simulacrum d'Eldrich]] | [[Eldrich Runeweaver]] | en cours |
+| [[Parler à Drexel des troupes d'Éloïse]] | Éloïse (nains) | en cours |
+| [[Ramener un successeur au trône]] | [[Hooded Lanterns]] | en cours |
+| [[Récupérer les 6 artefacts de la couronne]] | Inconnu (intérêt du groupe) | en cours |
+| [[Sécuriser l'Inscrutable Tower]] | [[Amethyst Academy]] | en cours |
 
 ## Terminées
-```dataview
-TABLE commanditaire AS "Commanditaire"
-FROM "Drakkenheim/Quetes"
-WHERE type = "quete" AND status = "terminée"
-SORT file.name ASC
-```
+| Fichier | Commanditaire |
+| --- | --- |
+| [[Éliminer Oscar]] | [[Theodore Marshall]] |
+| [[Monter un partenariat Académie - Hooded Lanterns]] | [[Les Hazebreakers]] |
+| [[Réparer la Clock Tower]] | Inconnu (urgence « 7 jours ») |
+| [[Reprendre Temple Gate et Saint Virtuvio]] | [[Elias Drexel]] |
+| [[Retrouver la Reine Lenore von Kessel]] | [[Elias Drexel]] |
+| [[Vaincre le Far Dweller]] | Survie du groupe |
 
 ## Autres
-```dataview
-TABLE status AS "Statut", commanditaire AS "Commanditaire"
-FROM "Drakkenheim/Quetes"
-WHERE type = "quete" AND status != "en cours" AND status != "terminée"
-SORT file.name ASC
-```
+*Aucun résultat.*
 
 ## Notes individuelles
 

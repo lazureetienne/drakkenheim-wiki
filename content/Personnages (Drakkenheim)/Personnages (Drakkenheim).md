@@ -17,23 +17,26 @@ Index de tous les personnages (PJ et PNJ) de la campagne. Voir aussi les [[Facti
 
 ## 🛡️ Le groupe — [[Les Hazebreakers]]
 
-```dataview
-TABLE role AS "Rôle", joueur AS "Joueur"
-FROM "Drakkenheim/Personnages (Drakkenheim)"
-WHERE type = "personnage" AND classe = "PJ"
-SORT file.name ASC
-```
+| Fichier | Rôle | Joueur |
+| --- | --- | --- |
+| [[Gardakonne]] | Paladin | [[Félix]] |
+| [[Kanye]] | Cleric | [[Alex]] |
+| [[Mike]] | Wizard | [[Marin]] |
+| [[Olum]] | Barbare | [[Étienne (Laze)\|Laze]] |
+| [[Salazar]] | Sorcier (wild magic) | [[Xav]] |
 
 ## 🎲 Joueurs (méta)
 
 Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueurs/` (voir **[[Joueurs]]**) : une seule fiche par personne, même si elle joue ailleurs. Le journal d'origine emploie parfois leur nom à la place de celui de leur personnage.
 
-```dataview
-TABLE drakkenheim_role AS "Rôle", drakkenheim_personnage AS "Personnage joué"
-FROM "Méta/Joueurs"
-WHERE type = "joueur" AND drakkenheim_role
-SORT file.name ASC
-```
+| Fichier | Rôle | Personnage joué |
+| --- | --- | --- |
+| [[Alex]] | Joueur | [[Kanye]] |
+| [[Chris]] | MJ | — |
+| [[Étienne (Laze)]] | Joueur | [[Olum]] |
+| [[Félix]] | Joueur | [[Gardakonne]] |
+| [[Marin]] | Joueur | [[Mike]] |
+| [[Xav]] | Joueur | [[Salazar]] |
 
 - [[Chris]] — **MJ**
 - [[Alex]] — joue [[Kanye]] (Kanye de l'Ouest)
@@ -47,12 +50,47 @@ SORT file.name ASC
 
 ## 🧑 PNJ
 
-```dataview
-TABLE faction AS "Faction", status AS "Statut"
-FROM "Drakkenheim/Personnages (Drakkenheim)"
-WHERE type = "personnage" AND (classe = "PNJ" OR !classe)
-SORT faction ASC, file.name ASC
-```
+| Fichier | Faction | Statut |
+| --- | --- | --- |
+| [[Eldrich Runeweaver]] | Amethyst Academy | vivant |
+| [[Master Noodle]] | Amethyst Academy | inconnue |
+| [[Prof. Oupsius]] | Amethyst Academy | inconnu |
+| [[Ryan Graymere]] | Amethyst Academy | vivante |
+| [[Thaya]] | Amethyst Academy | vivant |
+| [[Lucretia Mathias]] | Falling Fire | vivant |
+| [[Nathaniel Flint]] | Falling Fire | vivant |
+| [[Rufus Appolo]] | Falling Fire | vivant |
+| [[Elias Drexel]] | Hooded Lanterns | vivant |
+| [[Handsome]] | Hooded Lanterns | vivant |
+| [[Jacob]] | Hooded Lanterns | vivant |
+| [[Petra]] | Hooded Lanterns | vivant |
+| [[Aldor the Immense]] | Indépendant | vivant |
+| [[Friedrich von Lichten]] | Indépendant | inconnu |
+| [[He Who Laughs Last]] | Indépendant | inconnu |
+| [[Johnny Test]] | Indépendant | vivant |
+| [[Jupiter Jones]] | Indépendant | vivant |
+| [[La Duchesse]] | Indépendant | inconnue |
+| [[Lenneth Eventide]] | Indépendant | morte |
+| [[Necrophilius]] | Indépendant | inconnu |
+| [[Oscar Yorin]] | Indépendant | mort |
+| [[Peter Crowe]] | Indépendant | vivant |
+| [[Pluto Jackson]] | Indépendant | vivant |
+| [[Sebastien Crowe]] | Indépendant | vivant |
+| [[Stix]] | Indépendant | vivant |
+| [[Tobias Crowe]] | Indépendant | vivant |
+| [[Veo Segna]] | Indépendant | vivant |
+| [[Virgil]] | Indépendant | vivant |
+| [[Black Jack Mel]] | Les Queensmen | vivant |
+| [[Christian Lament]] | Les Queensmen | vivant |
+| [[Isreal]] | Les Queensmen | vivant |
+| [[Momba Jones]] | Les Queensmen | vivant |
+| [[The Queen of Thieves]] | Les Queensmen | vivante |
+| [[Veronica]] | Les Queensmen | vivante |
+| [[Lenore von Kessel]] | Les Von Kessel | vivante |
+| [[Cassandra White]] | Silver Order | vivante |
+| [[Flamekeeper Anna]] | Silver Order | vivante |
+| [[Ophelia Reed]] | Silver Order | vivant |
+| [[Theodore Marshall]] | Silver Order | vivant |
 
 ## Notes individuelles — PJ
 

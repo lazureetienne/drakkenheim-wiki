@@ -63,29 +63,84 @@ date_maj: 2026-06-22
 ## 📊 Tableaux de bord
 
 ### Personnages
-```dataview
-TABLE faction AS "Faction", status AS "Statut"
-FROM "Drakkenheim/Personnages (Drakkenheim)"
-WHERE type = "personnage" AND status != "mineur"
-SORT file.name ASC
-```
+| Fichier | Faction | Statut |
+| --- | --- | --- |
+| [[Aldor the Immense]] | Indépendant | vivant |
+| [[Black Jack Mel]] | Les Queensmen | vivant |
+| [[Cassandra White]] | Silver Order | vivante |
+| [[Christian Lament]] | Les Queensmen | vivant |
+| [[Eldrich Runeweaver]] | Amethyst Academy | vivant |
+| [[Elias Drexel]] | Hooded Lanterns | vivant |
+| [[Flamekeeper Anna]] | Silver Order | vivante |
+| [[Friedrich von Lichten]] | Indépendant | inconnu |
+| [[Gardakonne]] | Indépendant | vivant |
+| [[Handsome]] | Hooded Lanterns | vivant |
+| [[He Who Laughs Last]] | Indépendant | inconnu |
+| [[Isreal]] | Les Queensmen | vivant |
+| [[Jacob]] | Hooded Lanterns | vivant |
+| [[Johnny Test]] | Indépendant | vivant |
+| [[Jupiter Jones]] | Indépendant | vivant |
+| [[Kanye]] | Indépendant | vivant |
+| [[La Duchesse]] | Indépendant | inconnue |
+| [[Lenneth Eventide]] | Indépendant | morte |
+| [[Lenore von Kessel]] | Les Von Kessel | vivante |
+| [[Les Hazebreakers]] | Indépendant | actif |
+| [[Lucretia Mathias]] | Falling Fire | vivant |
+| [[Master Noodle]] | Amethyst Academy | inconnue |
+| [[Mike]] | Indépendant | vivant |
+| [[Momba Jones]] | Les Queensmen | vivant |
+| [[Nathaniel Flint]] | Falling Fire | vivant |
+| [[Necrophilius]] | Indépendant | inconnu |
+| [[Olum]] | Indépendant | vivant |
+| [[Ophelia Reed]] | Silver Order | vivant |
+| [[Oscar Yorin]] | Indépendant | mort |
+| [[Personnages secondaires]] | Divers | divers |
+| [[Peter Crowe]] | Indépendant | vivant |
+| [[Petra]] | Hooded Lanterns | vivant |
+| [[Pluto Jackson]] | Indépendant | vivant |
+| [[Prof. Oupsius]] | Amethyst Academy | inconnu |
+| [[Rufus Appolo]] | Falling Fire | vivant |
+| [[Ryan Graymere]] | Amethyst Academy | vivante |
+| [[Salazar]] | Amethyst Academy | vivant |
+| [[Sebastien Crowe]] | Indépendant | vivant |
+| [[Stix]] | Indépendant | vivant |
+| [[Thaya]] | Amethyst Academy | vivant |
+| [[The Queen of Thieves]] | Les Queensmen | vivante |
+| [[Theodore Marshall]] | Silver Order | vivant |
+| [[Tobias Crowe]] | Indépendant | vivant |
+| [[Veo Segna]] | Indépendant | vivant |
+| [[Veronica]] | Les Queensmen | vivante |
+| [[Virgil]] | Indépendant | vivant |
 
 ### Quêtes en cours
-```dataview
-TABLE commanditaire AS "Commanditaire", status AS "Statut"
-FROM "Drakkenheim/Quetes"
-WHERE type = "quete" AND status = "en cours"
-SORT file.name ASC
-```
+| Fichier | Commanditaire | Statut |
+| --- | --- | --- |
+| [[Allumer la grande flamme de la cathédrale]] | Intérêt du groupe | en cours |
+| [[Déloger la Queen of Thieves]] | [[Les Hazebreakers]] (initiative propre) | en cours |
+| [[Explorer le cratère]] | Intérêt du groupe | en cours |
+| [[Investiguer la Duchesse]] | Intérêt du groupe | en cours |
+| [[La Iron Banshee et le Rose Theatre]] | [[Ryan Graymere]] (contact) | en cours |
+| [[Le passage secret de King's Gate]] | Inconnu | en cours |
+| [[Le vault des Von Kessel]] | Intérêt du groupe | en cours |
+| [[Les nains et Smithy on the Scar]] | [[Les nains de Drakkenheim]] | en cours |
+| [[Les reliques de Saint Virtuvio]] | [[Lucretia Mathias]] (implicite) | en cours |
+| [[Obtenir le simulacrum d'Eldrich]] | [[Eldrich Runeweaver]] | en cours |
+| [[Parler à Drexel des troupes d'Éloïse]] | Éloïse (nains) | en cours |
+| [[Ramener un successeur au trône]] | [[Hooded Lanterns]] | en cours |
+| [[Récupérer les 6 artefacts de la couronne]] | Inconnu (intérêt du groupe) | en cours |
+| [[Sécuriser l'Inscrutable Tower]] | [[Amethyst Academy]] | en cours |
 
 ### Dernières séances
-```dataview
-TABLE date AS "Date", resume AS "Résumé"
-FROM "Drakkenheim/Seances"
-WHERE type = "seance"
-SORT date DESC
-LIMIT 8
-```
+| Fichier | Date | Résumé |
+| --- | --- | --- |
+| [[Séance 2026-06-22 — Rose Theatre]] | 2026-06-22 | Combat contre les Silver Order et des cloakers ; le simulacrum d'Eldrich au Kleinberg Estate. |
+| [[Séance 2026-06-18 — La Iron Banshee]] | 2026-06-18 | Objets magiques de Thaya ; la Iron Banshee et ses exigences ; le Rose Theatre. |
+| [[Séance 2026-06-08 — Retour et géopolitique]] | 2026-06-08 | Retour des plans ; géopolitique bouleversée ; Edicts of Lumen ; la Iron Banshee. |
+| [[Séance 2026-05-18 — Victoire sur le Far Dweller]] | 2026-05-18 | Victoire sur le Far Dweller ; cristal dans son corps ; retour à la Clock Tower. |
+| [[Séance 2026-05-11 — Shadow Lands]] | 2026-05-11 | Shadow Lands — Lenneth Eventide, révélation oncle/nièce, pacte avec la figure masquée. |
+| [[Séance 2026-04-30 — Le Far Dweller]] | 2026-04-30 | TP dans une autre dimension ; le Far Dweller nous défonce (cliffhanger, tout le monde down). |
+| [[Séance 2026-04-20 — Clock Tower et Modrons]] | 2026-04-20 | Clock Tower — gargouilles, modrons en boucle, obélisque et portail interplanaire. |
+| [[Séance 2026-04-09 — Remise de Lenore]] | 2026-04-09 | Remise de Lenore aux Hooded Lanterns ; échange de lilies ; départ vers la Clock Tower. |
 
 ---
 

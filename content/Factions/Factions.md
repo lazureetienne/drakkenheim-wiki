@@ -11,12 +11,16 @@ aliases:
 
 Factions présentes à Drakkenheim et leurs relations avec le groupe.
 
-```dataview
-TABLE position AS "Position du groupe", dirigeant AS "Dirigeant·e"
-FROM "Drakkenheim/Factions"
-WHERE type = "faction"
-SORT file.name ASC
-```
+| Fichier | Position du groupe | Dirigeant·e |
+| --- | --- | --- |
+| [[Amethyst Academy]] | Partenaires | [[Eldrich Runeweaver]] |
+| [[Falling Fire]] | Désaccord idéologique | [[Lucretia Mathias]] |
+| [[Hooded Lanterns]] | Alliés | [[Elias Drexel]] |
+| [[Les Iron Helms]] | Tiers | Inconnu |
+| [[Les nains de Drakkenheim]] | Alliés (reconnaissants) | Éloïse |
+| [[Les Queensmen]] | Ennemis | [[The Queen of Thieves]] |
+| [[Les Von Kessel]] | Enjeu politique | Roi Von Kessel |
+| [[Silver Order]] | Alliance tendue | [[Theodore Marshall]] |
 
 ## Notes individuelles
 
