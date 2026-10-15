@@ -173,6 +173,11 @@ plugins:
       # Option propre à la version locale du composant : quartz/components/FilteredGraph.tsx
       excludeTags:
         - excludeInGraph
+      # Dossiers entiers absents du graphe (préfixe de slug). Les séances sont
+      # nombreuses et très connectées : elles écrasaient la miniature. Dans la
+      # miniature d'une page de séance, la séance elle-même reste la racine.
+      excludePaths:
+        - seances
     layout:
       position: right
       priority: 10
@@ -187,6 +192,10 @@ plugins:
       # Option propre à la version locale du composant : quartz/components/FilteredGraph.tsx
       excludeTags:
         - excludeInGraph
+      # Dossiers entiers absents du graphe : sur la page d'accueil, les séances
+      # (≈ 40 notes très connectées) saturaient le graphe de campagne.
+      excludePaths:
+        - seances
       localGraph:
         depth: -1
         scale: 0.9

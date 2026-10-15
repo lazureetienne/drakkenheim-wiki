@@ -1,11 +1,14 @@
 // FilteredGraph — copie locale de @quartz-community/graph v1.0.0
 // (src/components/scripts/graph.inline.ts).
 //
-// Seule différence : l'option `excludeTags`. Une note dont la liste de tags
-// contient l'un des tags exclus est retirée de la carte des données AVANT la
-// construction des liens : elle n'apparaît donc ni comme nœud, ni comme
-// voisine, ni comme lien — exactement comme le filtre `excludeInGraph` du
-// graphe d'Obsidian.
+// Différences : les options `excludeTags` et `excludePaths`.
+//  - `excludeTags`  : une note dont un tag est exclu est retirée de la carte
+//    des données AVANT la construction des liens : ni nœud, ni voisine, ni
+//    lien — comme le filtre `excludeInGraph` du graphe d'Obsidian.
+//  - `excludePaths` : même chose pour un dossier entier (préfixe de slug,
+//    ex. `seances`), afin qu'il n'encombre pas le graphe.
+// Dans un graphe local (`depth >= 0`), la page courante est conservée même si
+// elle est exclue : elle reste la racine de sa propre miniature.
 //
 // @ts-nocheck
 import {
@@ -118,6 +121,7 @@ import {
       var opacityScale = config.opacityScale || 1;
       var removeTags = config.removeTags || [];
       var excludeTags = config.excludeTags || [];
+      var excludePaths = config.excludePaths || [];
       var showTags = config.showTags;
       var focusOnHover = config.focusOnHover;
       var enableRadial = config.enableRadial;
@@ -136,14 +140,31 @@ import {
         return false;
       }
 
+      // Un dossier exclu (ex. "seances") est absent du graphe : son slug vaut
+      // le préfixe lui-même (page du dossier) ou commence par "préfixe/".
+      function isExcludedByPath(nodeSlug) {
+        for (var pi = 0; pi < excludePaths.length; pi++) {
+          var prefix = String(excludePaths[pi]).toLowerCase().replace(/^\/+/, "").replace(/\/+$/, "");
+          if (prefix === "") continue;
+          if (nodeSlug === prefix || nodeSlug.indexOf(prefix + "/") === 0) {
+            return true;
+          }
+        }
+        return false;
+      }
+
       var data;
       try {
         var dataRaw = await fetchData;
         data = new Map();
         for (var key in dataRaw) {
           var rawEntry = dataRaw[key];
-          if (isExcludedByTag(rawEntry)) continue;
-          data.set(simplifySlug(key), rawEntry);
+          var keySlug = simplifySlug(key);
+          // Miniature d'une page exclue : on la garde comme racine (depth >= 0),
+          // les graphes globaux (depth -1) l'excluent aussi.
+          var keepAsRoot = depth >= 0 && keySlug === slug;
+          if (!keepAsRoot && (isExcludedByTag(rawEntry) || isExcludedByPath(keySlug))) continue;
+          data.set(keySlug, rawEntry);
         }
       } catch (err) {
         console.error("[Graph] Error loading data:", err);

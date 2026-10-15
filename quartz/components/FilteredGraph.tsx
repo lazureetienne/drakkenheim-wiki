@@ -2,12 +2,19 @@
  * FilteredGraph — composant de graphe local.
  *
  * Copie conforme de `@quartz-community/graph` v1.0.0 (src/components/Graph.tsx)
- * avec UNE seule addition : l'option `excludeTags`.
+ * avec DEUX ajouts : les options `excludeTags` et `excludePaths`.
  *
  * Pourquoi : le plugin d'origine ne sait retirer que des NŒUDS DE TAG
  * (`removeTags`) ; il n'offre aucun moyen d'exclure une NOTE du graphe.
- * Le vault marque les notes à masquer avec le tag `excludeInGraph`, on
- * reproduit donc ce filtre sur le site.
+ *  - `excludeTags`  : le vault marque les notes à masquer avec le tag
+ *                     `excludeInGraph`, on reproduit ce filtre sur le site.
+ *  - `excludePaths` : permet de masquer tout un dossier (ex. `seances`), dont
+ *                     les notes encombraient le graphe de la page d'accueil.
+ *
+ * Exception : dans un graphe LOCAL (`depth >= 0`, la miniature de la barre
+ * latérale), la page courante reste affichée même si elle est exclue — sinon
+ * la case serait vide. Les graphes globaux (`depth -1`, page d'accueil et
+ * vue plein écran) appliquent l'exclusion strictement.
  *
  * Enregistrement : ce composant REMPLACE le composant du plugin dans le
  * registre (voir quartz.ts, avant loadQuartzLayout). Le plugin d'origine
@@ -45,6 +52,8 @@ export interface D3Config {
   enableRadial?: boolean;
   /** Tags dont les notes sont retirées du graphe (ex. ["excludeInGraph"]). */
   excludeTags?: string[];
+  /** Préfixes de dossier retirés du graphe (ex. ["seances"]). */
+  excludePaths?: string[];
 }
 
 export interface GraphOptions {
@@ -55,6 +64,11 @@ export interface GraphOptions {
    * aucun lien). Sert à reproduire le filtre `excludeInGraph` du vault.
    */
   excludeTags?: string[];
+  /**
+   * Notes dont le slug commence par l'un de ces préfixes : retirées des deux
+   * graphes. Sert à masquer un dossier entier (ex. ["seances"]).
+   */
+  excludePaths?: string[];
 }
 
 const defaultOptions: GraphOptions = {
@@ -93,8 +107,9 @@ const defaultOptions: GraphOptions = {
 export default ((userOpts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const excludeTags = userOpts?.excludeTags ?? [];
-    const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph, excludeTags };
-    const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph, excludeTags };
+    const excludePaths = userOpts?.excludePaths ?? [];
+    const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph, excludeTags, excludePaths };
+    const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph, excludeTags, excludePaths };
 
     return (
       <div class={classNames(displayClass, "graph")}>
