@@ -3,6 +3,8 @@ import { registerCondition } from "./quartz/plugins/loader/conditions"
 import { componentRegistry } from "./quartz/components/registry"
 import FilteredGraph from "./quartz/components/FilteredGraph"
 import OrderedExplorer from "./quartz/components/OrderedExplorer"
+import CollapsibleBacklinks from "./quartz/components/CollapsibleBacklinks"
+import AdaptiveTableOfContents from "./quartz/components/AdaptiveTableOfContents"
 
 // Condition personnalisée, utilisable via `condition: is-index` dans quartz.config.yaml.
 // `not-index` (fournie par Quartz) est son exacte inverse : elle cible la racine `content/index.md`.
@@ -51,6 +53,26 @@ const LOCAL_EXPLORER_SOURCE = "local:quartz/components/OrderedExplorer"
 
 componentRegistry.register("Explorer", OrderedExplorer, LOCAL_EXPLORER_SOURCE)
 componentRegistry.register("@quartz-community/explorer", OrderedExplorer, LOCAL_EXPLORER_SOURCE)
+
+// Liens retour : remplace le panneau du plugin par un élément <details> natif,
+// accessible au clavier et replié par défaut.
+const LOCAL_BACKLINKS_SOURCE = "local:quartz/components/CollapsibleBacklinks"
+
+componentRegistry.register("Backlinks", CollapsibleBacklinks, LOCAL_BACKLINKS_SOURCE)
+componentRegistry.register(
+  "@quartz-community/backlinks",
+  CollapsibleBacklinks,
+  LOCAL_BACKLINKS_SOURCE,
+)
+
+const LOCAL_TOC_SOURCE = "local:quartz/components/AdaptiveTableOfContents"
+
+componentRegistry.register("TableOfContents", AdaptiveTableOfContents, LOCAL_TOC_SOURCE)
+componentRegistry.register(
+  "@quartz-community/table-of-contents",
+  AdaptiveTableOfContents,
+  LOCAL_TOC_SOURCE,
+)
 
 const config = await loadQuartzConfig()
 export default config
@@ -107,6 +129,48 @@ if (replacedExplorerKeys === 0) {
 } else {
   console.log(
     `OrderedExplorer: composant local installé (${replacedExplorerKeys} clé(s) du plugin redirigée(s), option sortFn).`,
+  )
+}
+
+let replacedBacklinksKeys = 0
+
+componentRegistry.getAll().forEach((registered, key) => {
+  if (!registered.source.includes("@quartz-community/backlinks")) return
+  if (registered.component === CollapsibleBacklinks) return
+
+  componentRegistry.register(key, CollapsibleBacklinks, LOCAL_BACKLINKS_SOURCE, registered.manifest)
+  replacedBacklinksKeys++
+})
+
+if (replacedBacklinksKeys === 0) {
+  console.warn(
+    "CollapsibleBacklinks: aucune clé du plugin backlinks trouvée après le chargement de la configuration. " +
+      "Vérifier que `@quartz-community/backlinks` est toujours déclaré dans quartz.config.yaml.",
+  )
+} else {
+  console.log(
+    `CollapsibleBacklinks: composant local installé (${replacedBacklinksKeys} clé(s) du plugin redirigée(s), panneau repliable).`,
+  )
+}
+
+let replacedTocKeys = 0
+
+componentRegistry.getAll().forEach((registered, key) => {
+  if (!registered.source.includes("@quartz-community/table-of-contents")) return
+  if (registered.component === AdaptiveTableOfContents) return
+
+  componentRegistry.register(key, AdaptiveTableOfContents, LOCAL_TOC_SOURCE, registered.manifest)
+  replacedTocKeys++
+})
+
+if (replacedTocKeys === 0) {
+  console.warn(
+    "AdaptiveTableOfContents: aucune clé du plugin table-of-contents trouvée après le chargement de la configuration. " +
+      "Vérifier que `@quartz-community/table-of-contents` est toujours déclaré dans quartz.config.yaml.",
+  )
+} else {
+  console.log(
+    `AdaptiveTableOfContents: composant local installé (${replacedTocKeys} clé(s) du plugin redirigée(s), état initial adapté au contenu).`,
   )
 }
 

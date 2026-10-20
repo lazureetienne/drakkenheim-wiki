@@ -76,3 +76,257 @@ a.tag-link:not(ul.tags a) {
     background-color: transparent;
   }
 }
+
+// --- Panneaux de la barre latérale droite ---------------------------------------
+@media all and (min-width: 1200px) {
+  .sidebar.right {
+    gap: 0.75rem;
+    align-items: stretch;
+
+    > .graph,
+    > .toc,
+    > .backlinks {
+      box-sizing: border-box;
+      min-width: 0;
+      padding: 0.5rem 0.25rem;
+      border: 0;
+      border-bottom: 1px solid color-mix(in srgb, var(--gray) 24%, transparent);
+      border-radius: 0;
+    }
+
+    > .graph {
+      flex: 0 0 auto;
+    }
+
+    > .toc {
+      flex: 0 0 clamp(12rem, 24vh, 18rem);
+      min-height: 12rem;
+      overflow: hidden;
+    }
+
+    > .toc > .toc-header {
+      width: 100%;
+      flex: 0 0 auto;
+      justify-content: space-between;
+      min-height: 2.75rem;
+    }
+
+    > .toc > .toc-header > h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    > .toc > .toc-header .fold,
+    .backlinks-toggle .fold {
+      width: 24px;
+      height: 24px;
+      flex: 0 0 auto;
+      margin-left: 0;
+      transition: transform 0.3s ease;
+      opacity: 0.8;
+    }
+
+    > .toc > .toc-header.collapsed .fold {
+      transform: rotate(0deg);
+    }
+
+    > .toc > .toc-header:not(.collapsed) .fold,
+    .backlinks[open] > .backlinks-toggle .fold {
+      transform: rotate(180deg);
+    }
+
+    > .toc > .toc-content {
+      flex: 1 1 auto;
+      min-height: 0;
+      max-height: none;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    > .toc:has(> .toc-header.collapsed) {
+      flex: 0 0 4.5rem;
+      min-height: 4.5rem;
+    }
+
+    > .backlinks {
+      flex: 0 0 auto;
+      max-height: none;
+      overflow: visible;
+    }
+
+    > .backlinks > ul.overflow {
+      max-height: min(14rem, 20vh);
+      overflow-y: auto;
+    }
+
+    > .backlinks > ul.overflow > li > a {
+      color: var(--darkgray);
+      font-size: 0.9rem;
+      opacity: 0.65;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .backlinks-toggle {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.35rem;
+      padding: 0;
+      color: var(--dark);
+      font: inherit;
+      text-align: left;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+
+      &:focus-visible {
+        outline: 2px solid var(--secondary);
+        outline-offset: 3px;
+      }
+    }
+  }
+}
+
+// --- Navigation mobile et tablette -----------------------------------------------
+@media all and (max-width: 1199px) {
+  .page > #quartz-body .center > .toc {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin: 0 0 0.75rem;
+    padding: 0.5rem 0.25rem;
+    border: 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--gray) 24%, transparent);
+    overflow: hidden;
+
+    > .toc-header {
+      width: 100%;
+      min-height: 44px;
+      justify-content: space-between;
+    }
+
+    > .toc-content {
+      max-height: min(45vh, 18rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    > .toc-content > li > a {
+      display: flex;
+      min-height: 44px;
+      align-items: center;
+    }
+
+    &:has(> .toc-header.collapsed) {
+      flex: 0 0 auto;
+      height: 4.5rem;
+      min-height: 4.5rem;
+    }
+  }
+
+  .page > #quartz-body .center > .toc > .toc-header .fold,
+  .page > #quartz-body .sidebar.right > .backlinks > .backlinks-toggle .fold {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 auto;
+    margin-left: 0;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+  }
+
+  .page > #quartz-body .center > .toc > .toc-header.collapsed .fold {
+    transform: rotate(0deg);
+  }
+
+  .page > #quartz-body .center > .toc > .toc-header:not(.collapsed) .fold,
+  .page > #quartz-body .sidebar.right > .backlinks[open] > .backlinks-toggle .fold {
+    transform: rotate(180deg);
+  }
+
+  .page > #quartz-body .sidebar.right {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    > * {
+      box-sizing: border-box;
+      flex: 0 0 auto;
+      min-width: 0;
+      max-height: none;
+      padding: 0.5rem 0.25rem;
+      border: 0;
+      border-bottom: 1px solid color-mix(in srgb, var(--gray) 24%, transparent);
+    }
+
+    > .toc {
+      display: flex;
+      order: -1;
+      min-height: 0;
+      overflow: visible;
+    }
+
+    > .toc > .toc-header {
+      width: 100%;
+      min-height: 44px;
+      justify-content: space-between;
+    }
+
+    > .toc > .toc-content {
+      max-height: min(45vh, 18rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    > .toc > .toc-content > li > a,
+    > .backlinks > ul.overflow > li > a {
+      display: flex;
+      min-height: 44px;
+      align-items: center;
+    }
+
+    > .backlinks > .backlinks-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 44px;
+    }
+
+    > .backlinks[open] > ul.overflow {
+      max-height: min(45vh, 18rem);
+      overflow-y: auto;
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  .page > #quartz-body .search-button {
+    min-height: 44px;
+  }
+
+  .page > #quartz-body .darkmode,
+  .page > #quartz-body .readermode {
+    width: 44px;
+    height: 44px;
+  }
+
+  .page > #quartz-body .sidebar.left .explorer button.mobile-explorer {
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .search > .search-container {
+    height: 100dvh;
+  }
+
+  .search > .search-container > .search-space > input {
+    min-height: 44px;
+  }
+}
