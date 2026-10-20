@@ -29,9 +29,10 @@ Villes, quartiers, donjons et points d'intérêt de Drakkenheim et du royaume.
 | [[Drensmen]] | [[Westemar]] | inconnu |
 | [[Eckerman Mill]] | Drakkenheim (extérieur) | inconnu |
 | [[Emberwood Village]] | Drakkenheim (extérieur) | habité |
-| [[Inscrutable Tower]] | Drakkenheim | explorée |
+| [[Inscrutable Tower]] | Drakkenheim | en cours d'exploration |
 | [[King's Gate]] | Drakkenheim | inconnu |
-| [[Kleinberg Estate]] | [[Château de Drakkenheim]] | à explorer |
+| [[Kingsmoot]] | Caspia | inconnu |
+| [[Kleinberg Estate]] | [[Château de Drakkenheim]] | exploré |
 | [[Le cratère]] | Drakkenheim | dangereux |
 | [[Les égouts]] | Drakkenheim | dangereux |
 | [[Queen's Park Garden]] | Drakkenheim | dangereux |
@@ -88,6 +89,7 @@ Villes, quartiers, donjons et points d'intérêt de Drakkenheim et du royaume.
 ### Hors de la ville
 - [[Westemar]]
 - [[Caspia]]
+- [[Kingsmoot]]
 - [[Drensmen]]
 - [[Tower of Swords]]
 

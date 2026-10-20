@@ -12,7 +12,7 @@ resume: Combat contre les Silver Order et des cloakers ; le simulacrum d'Eldrich
 - Les Hazebreakers **gagnent un combat** contre des membres du **[[Silver Order]]** et des **Cloakers**.
 - Retour à la **garnison** en après-midi.
 - **[[Eldrich Runeweaver]]** aura besoin du **reste de la journée** pour préparer son ***simulacrum***.
-- Il serait au **[[Kleinberg Estate]]**, **près du [[Château de Drakkenheim]]**.
+- Il semblerait que [[Friedrich von Lichten]], un ancien de l'académie aux méthodes douteuses, serait au **[[Kleinberg Estate]]**, **près du [[Château de Drakkenheim]]**.
 
 ## Lié à
-- [[Ryan Graymere]] · [[Eldrich Runeweaver]] · [[Kleinberg Estate]] · [[Obtenir le simulacrum d'Eldrich]]
+- [[Ryan Graymere]] · [[Eldrich Runeweaver]] · [[Kleinberg Estate]] · [[Accompagner le simulacrum d'Eldrich]]

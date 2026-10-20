@@ -19,4 +19,4 @@ Trouver le **vault (caveau) de la famille royale [[Les Von Kessel|Von Kessel]]**
 
 ## Lié à
 - [[Les Von Kessel]] · [[Cathédrale de Saint Virtuvio]]
-- Séance : [[Séance 2025-11-06 — Le King of the Fiests]]
+- Séance : [[Séance 2025-11-06 — Le King of the Feasts]]

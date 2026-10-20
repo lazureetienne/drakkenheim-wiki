@@ -7,6 +7,7 @@ region: Autre plan
 status: mystérieux
 aliases:
   - Plan astral
+  - Space Between Worlds
 ---
 # Space Between Realms
 
@@ -14,6 +15,7 @@ Plan intermédiaire où débouche le **portail** de la [[Clock Tower]]. Dénomin
 
 - **Temps dilaté** : **1 an ici = 40 ans** sur le plan matériel (un repos long de 4 jours = 160 jours).
 - [[Prof. Oupsius]] y trouve le groupe ; il **rouvre le portail**.
+- Le Prof. Oupsius y tient un **refuge hors-temps** depuis qu'il y est arrivé par la maladresse de [[Salazar]]; les **4 repos longs** pris dans ce refuge ont coûté **100 jours** au monde matériel.
 
 ## Historique
 - **[[Séance 2026-04-20 — Clock Tower et Modrons|2026-04-20]]** : atteint via le **portail tournant** de l'obélisque de la [[Clock Tower]] (qui alterne entre la plaine élémentale, le Dream Land et cet endroit) — après des **golems de terre** venus d'une autre plaine, une **voix** dit « **suffit de jouer** » → le groupe est **transporté** ici.

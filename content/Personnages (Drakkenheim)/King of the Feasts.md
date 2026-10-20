@@ -4,7 +4,7 @@ tags:
   - drakkenheim
   - creature
 ---
-# King of the Fiests
+# King of the Feasts
 
 Créature **majeure** de la **[[Cathédrale de Saint Virtuvio]]**.
 
@@ -12,4 +12,4 @@ Créature **majeure** de la **[[Cathédrale de Saint Virtuvio]]**.
 
 ## Lié à
 - [[Cathédrale de Saint Virtuvio]] · [[Allumer la grande flamme de la cathédrale]]
-- Séance : [[Séance 2025-11-06 — Le King of the Fiests]]
+- Séance : [[Séance 2025-11-06 — Le King of the Feasts]]

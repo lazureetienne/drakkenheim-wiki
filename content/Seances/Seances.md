@@ -9,7 +9,7 @@ aliases:
 ---
 # 📖 Séances
 
-Résumés séance par séance, du **24/03 (2025)** au **22/06/2026**.
+Résumés séance par séance, du **24/03 (2025)** au **19/10/2026**.
 Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise le format `JJ/MM`.
 
 | Fichier | Date | Résumé |
@@ -39,7 +39,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2025-10-13 — Rats Nest]] | 2025-10-13 | Traversée vers le Rats Nest ; wild magic à deux doigts d'un TPK ; l'alliage. |
 | [[Séance 2025-10-20 — Livraison à la Queen]] | 2025-10-20 | Commande de l'armure ; Edicts of Lumen ; récupération du stock ; retour à Buckledown Row. |
 | [[Séance 2025-10-27 — Plan d'attaque de la cathédrale]] | 2025-10-27 | Rapport (partiel) à Drexel et Marshall ; plan d'attaque de la cathédrale. |
-| [[Séance 2025-11-06 — Le King of the Fiests]] | 2025-11-06 | Le King of the Fiests ; catacombes ; allumage de la flamme par énigmes de lumière. |
+| [[Séance 2025-11-06 — Le King of the Feasts]] | 2025-11-06 | Le King of the Fiests ; catacombes ; allumage de la flamme par énigmes de lumière. |
 | [[Séance 2025-11-24 — Squelette de dragon]] | 2025-11-24 | Découverte d'un squelette de dragon dans le sous-sol de la cathédrale. |
 | [[Séance 2025-12-08 — Choix d'alliance]] | 2025-12-08 | Choix d'alliance : Hooded Lanterns + Académie ; le phylactère aux Silver Order. |
 | [[Séance 2025-12-20 — Trahison à Camp Dawn]] | 2025-12-20 | Sommet à la cathédrale ; Jacob charmé ; trahison de la Queen ; sort de contamination appris. |
@@ -62,6 +62,17 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2026-06-08 — Retour et géopolitique]] | 2026-06-08 | Retour des plans ; géopolitique bouleversée ; Edicts of Lumen ; la Iron Banshee. |
 | [[Séance 2026-06-18 — La Iron Banshee]] | 2026-06-18 | Objets magiques de Thaya ; la Iron Banshee et ses exigences ; le Rose Theatre. |
 | [[Séance 2026-06-22 — Rose Theatre]] | 2026-06-22 | Combat contre les Silver Order et des cloakers ; le simulacrum d'Eldrich au Kleinberg Estate. |
+| [[Séance 2026-07-06 — À la recherche du Pale Man]] | 2026-07-06 | Le groupe recherche Friedrich von Lichten et approche de Kleinberg Estate, près du château. |
+| [[Séance 2026-07-20 — L'Estate sous influence]] | 2026-07-20 | Après avoir vaincu un dragon de bronze près de Kleinberg Estate, les Hazebreakers explorent le domaine de Friedrich von Lichten et rencontrent Raven. |
+| [[Séance 2026-08-03 — Les Delerium Dregs]] | 2026-08-03 | Des Delerium Dregs, des humains contaminés soignés et contrôlés par Friedrich von Lichten, attaquent les Hazebreakers dans un bâtiment. |
+| [[Séance 2026-08-11 — La fuite du Pale Man]] | 2026-08-11 | Friedrich von Lichten affirme avoir trouvé un remède à la folie de la contamination, puis s'échappe sous forme d'insectes ; Olum le poursuit. |
+| [[Séance 2026-08-18 — Les insectes du Pale Man]] | 2026-08-18 | Les Hazebreakers terrassent Friedrich von Lichten malgré les insectes qui les entravent et rapportent un œuf à Eldrich et Thaya. |
+| [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]] | 2026-08-24 | Dans un rêve, le patron warlock de Mike propose une voie alternative au One Who Laughs Last ; la discussion porte sur le Bienveillantisme. |
+| [[Séance 2026-08-31 — Enfants morts et pourparlers de l'Académie]] | 2026-08-31 | Après la mort de trois enfants tués par des créatures à têtes de requin, la tension monte entre les Hazebreakers et Salazar au sujet du risque pris pour les sauver. |
+| [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] | 2026-09-07 | Les Hazebreakers affrontent les monstruosités à l'entrée de l'Inscrutable Tower, puis vainquent ses gardiens dans le lobby. |
+| [[Séance 2026-09-22 — Le Nexus du Director's Office]] | 2026-09-22 | Au-dessus du Director's Office, les Hazebreakers découvrent le Nexus ; sa réactivation ouvre des portails d'où surgissent des monstres. |
+| [[Séance 2026-10-15 — Les créatures ressortent du portail]] | 2026-10-15 | Le combat au Nexus se conclut ; après un repos court, les Hazebreakers traversent le gouffre de l'Inscrutable Tower et subissent une anomalie arcanique. |
+| [[Séance 2026-10-19 — Spectres et apprentis contaminés]] | 2026-10-19 | Dans l'Inscrutable Tower, les Hazebreakers éliminent des spectres et affrontent des apprentis contaminés, avant de revenir dans les rues de Drakkenheim en direction de la Garrison. |
 
 ## Séances individuelles
 
@@ -90,7 +101,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 - [[Séance 2025-10-13 — Rats Nest]]
 - [[Séance 2025-10-20 — Livraison à la Queen]]
 - [[Séance 2025-10-27 — Plan d'attaque de la cathédrale]]
-- [[Séance 2025-11-06 — Le King of the Fiests]]
+- [[Séance 2025-11-06 — Le King of the Feasts]]
 - [[Séance 2025-11-24 — Squelette de dragon]]
 - [[Séance 2025-12-08 — Choix d'alliance]]
 - [[Séance 2025-12-20 — Trahison à Camp Dawn]]
@@ -113,3 +124,14 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 - [[Séance 2026-06-08 — Retour et géopolitique]]
 - [[Séance 2026-06-18 — La Iron Banshee]]
 - [[Séance 2026-06-22 — Rose Theatre]]
+- [[Séance 2026-07-06 — À la recherche du Pale Man]]
+- [[Séance 2026-07-20 — L'Estate sous influence]]
+- [[Séance 2026-08-03 — Les Delerium Dregs]]
+- [[Séance 2026-08-11 — La fuite du Pale Man]]
+- [[Séance 2026-08-18 — Les insectes du Pale Man]]
+- [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]]
+- [[Séance 2026-08-31 — Enfants morts et pourparlers de l'Académie]]
+- [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]]
+- [[Séance 2026-09-22 — Le Nexus du Director's Office]]
+- [[Séance 2026-10-15 — Les créatures ressortent du portail]]
+- [[Séance 2026-10-19 — Spectres et apprentis contaminés]]

@@ -21,7 +21,7 @@ Index de tous les personnages (PJ et PNJ) de la campagne. Voir aussi les [[Facti
 | --- | --- | --- |
 | [[Gardakonne]] | Paladin | [[Félix]] |
 | [[Kanye]] | Cleric | [[Alex]] |
-| [[Mike]] | Wizard | [[Marin]] |
+| [[Mike]] | Warlock (Hexblade) / Fighter | [[Marin]] |
 | [[Olum]] | Barbare | [[Étienne (Laze)\|Laze]] |
 | [[Salazar]] | Sorcier (wild magic) | [[Xav]] |
 
@@ -65,16 +65,16 @@ Les **joueurs** de la table — leurs fiches sont regroupées dans `Méta/Joueur
 | [[Jacob]] | Hooded Lanterns | vivant |
 | [[Petra]] | Hooded Lanterns | vivant |
 | [[Aldor the Immense]] | Indépendant | vivant |
-| [[Friedrich von Lichten]] | Indépendant | inconnu |
+| [[Friedrich von Lichten]] | Indépendant | mort |
 | [[He Who Laughs Last]] | Indépendant | inconnu |
 | [[Johnny Test]] | Indépendant | vivant |
 | [[Jupiter Jones]] | Indépendant | vivant |
 | [[La Duchesse]] | Indépendant | inconnue |
 | [[Lenneth Eventide]] | Indépendant | morte |
-| [[Necrophilius]] | Indépendant | inconnu |
 | [[Oscar Yorin]] | Indépendant | mort |
 | [[Peter Crowe]] | Indépendant | vivant |
 | [[Pluto Jackson]] | Indépendant | vivant |
+| [[Raven]] | Indépendant | vivante |
 | [[Sebastien Crowe]] | Indépendant | vivant |
 | [[Stix]] | Indépendant | vivant |
 | [[Tobias Crowe]] | Indépendant | vivant |

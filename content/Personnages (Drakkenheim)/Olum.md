@@ -56,15 +56,19 @@ Nom complet : **Olum Arzum** (dit **Olum**) — **demi-orc**, âgé de **41 ans*
 
 ## Faits marquants
 - Achète une **Potion of Healing** à [[Aldor the Immense]].
-- Donne sa hache à [[Tobias Crowe]] pour l'**infuser au délirium** (adamantine) → **[[Olyss]]**, une *Adamantine Battleaxe +1* (nommée d'après un grand explorateur caspien ; autres noms envisagés : *La Lourde*, *La Légerte*).
+- Donne sa hache à [[Tobias Crowe]] pour l'**infuser au délirium** (adamantine) → **[[Olyss]]**, une *Adamantine Battleaxe +1* (nommée d'après un grand explorateur caspien ; autres noms envisagés : *La Lourde*, *La Légerte*) — **transformée** en [[Promised Greataxe]] en septembre 2026.
 - Récupère (« yoink ») un **portrait d'un magnifique arbre** au [[Queen's Park Garden]].
 - Dans l'[[Inscrutable Tower]], **remplace une page d'un livre** d'un imp par une feuille où il écrit « pénis » (les imps la recopieront *ad vitam æternam*).
-- Guide le groupe avec sa **lanterne** et le [[Plan des Tiered Gardens|foulage de la carte]].
+- Guide le groupe à travers [[Queen's Park Garden]] avec sa **lanterne** et le [[Plan des Tiered Gardens|foulage de la carte]].
 - Se fait **charmer** par les dryades du [[Queen's Park Garden]].
 - S'entraîne en **1v1** contre [[Elias Drexel]] (bonne performance grâce à un coup critique).
+- Poursuit **[[Friedrich von Lichten]]** sous forme de nuée d'insectes en **creusant le plancher** avec **[[Olyss]]** ([[Séance 2026-08-11 — La fuite du Pale Man]]).
+- **Seul membre du groupe épargné** par l'**anomalie arcanique** qui transforme les autres en squelettes au cours de la traversée du gouffre de l'[[Inscrutable Tower]] ([[Séance 2026-10-15 — Les créatures ressortent du portail]]).
+- Approche une **mystérieuse lumière mauve** lors du combat du lobby de l'[[Inscrutable Tower]] : **conversation privée** en une fraction de seconde avec **[[The Whispered Promise]]**, qui lui confie la **[[Promised Greataxe]]** — la transformation d'**[[Olyss]]** ([[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]]).
 
 ## Lié à
 - Famille : [[Gardakonne]] (nièce) · Yasmina · Vari · Roxana
-- Lieux : [[Caspia]] · [[Tower of Swords]] (Rex Colosseum) · [[Shadow Lands]]
-- Groupe : [[Les Hazebreakers]] · objets : [[Olyss]] · [[Tobias Crowe]]
-- Séances : [[Séance 2026-01-19 — Rencontre d'Olum]] · [[Séance 2026-03-19 — Rencontre avec l'Académie]] · [[Séance 2026-05-11 — Shadow Lands]]
+- Lieux : [[Caspia]] · [[Kingsmoot]] · [[Tower of Swords]] (Rex Colosseum) · [[Shadow Lands]]
+- Groupe : [[Les Hazebreakers]] · objets : [[Olyss]] · [[Promised Greataxe]] · [[Lanternes de l'Enfer]] · [[Tobias Crowe]]
+- Quête : [[Pacte des âmes (He Who Laughs Last)]]
+- Séances : [[Séance 2026-01-19 — Rencontre d'Olum]] · [[Séance 2026-03-19 — Rencontre avec l'Académie]] · [[Séance 2026-05-11 — Shadow Lands]] · [[Séance 2026-08-11 — La fuite du Pale Man]] · [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] · [[Séance 2026-10-15 — Les créatures ressortent du portail]]

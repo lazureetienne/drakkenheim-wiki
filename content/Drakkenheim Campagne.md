@@ -6,19 +6,20 @@ tags:
 aliases:
   - Campagne Drakkenheim
   - Drakkenheim (campagne)
-date_maj: 2026-06-22
+date_maj: 2026-10-19
 ---
 # 🎲 Campagne Drakkenheim
 
 > [!info] À propos
 > Notes de **joueur** pour la campagne *Dungeons & Dragons* située à **Drakkenheim**.
 > Groupe : **[[Les Hazebreakers]]**.
-> Dernière séance consignée : **22/06/2026**.
+> Dernière séance consignée : **19/10/2026**.
 > Notes brutes d'origine (import OneNote) : [[OneNote Imports/DnD - Royaume/Drakkenheim/Drakkenheim|Journal brut (OneNote)]].
 
 > [!warning] Conventions
 > Ce dossier réorganise le journal brut en notes catégorisées et reliées entre elles.
 > Les faits proviennent **uniquement** du journal d'origine ; les rares points encore flous sont signalés par un callout.
+> **Seconde source** : un **rapport de campagne IA** basé sur la retranscription audio des séances fournit des détails de combat, de butin et de pacte.
 > **Dates** : format `JJ/MM` → **2025** pour les séances de mars à décembre, puis **2026** (années réelles ; la campagne a commencé en 2025). Les mois « in-game » ne sont pas vraiment comptés.
 > **Joueurs vs personnages** : le journal nomme parfois le **joueur** à la place de son personnage — « Alex » → **[[Kanye]]** (Kanye de l'Ouest) · « Xav » → **[[Salazar]]** · « Félix » → **[[Gardakonne]]** (Garda Von Konne, ♀) · « Laze » → **[[Olum]]** (Olum Arzum) · « Marin » → **[[Mike]]** (Mike Rizzowski) ; MJ : **[[Chris]]** (voir [[Personnages (Drakkenheim)]]).
 > **Fiches de joueurs** : les personnes de la table (MJ et joueurs) ont leur fiche dans **[[Méta/Joueurs/index|Joueurs]]**, sous le dossier [[Méta|Méta]] → `Méta/Joueurs/` ; celles de [[Chris]], [[Xav]], [[Étienne (Laze)|Étienne « Laze »]] et [[Marin]] servent aussi à une autre campagne.
@@ -45,10 +46,14 @@ date_maj: 2026-06-22
 
 - Le groupe se fait appeler les **Hazebreakers** ; il travaille principalement avec les **[[Hooded Lanterns]]** et l'**[[Amethyst Academy]]**.
 - **[[Lenore von Kessel]]** (la reine) a été **capturée** à Queen's Park Garden et remise aux Hooded Lanterns (avril 2026).
-- La **[[Inscrutable Tower]]** a été explorée ; **Oscar Yorin** y a été vaincu. L'Académie veut sécuriser la tour.
+- La **[[Inscrutable Tower]]** est en cours d'exploration (depuis septembre 2026) : lobby, gouffre, *Research Level* et **résidences** nettoyés ; le **Nexus** (au-dessus du *Director's Office*) a été découvert — sa réactivation **ouvre des portails** et vise à **rallumer la [[Clock Tower]]**.
+- **[[Friedrich von Lichten]]** (le *Pale Man*), recherché pour son expertise sur la contamination, a été **tué** (août 2026) ; un **œuf** de nature inconnue qu'il possédait a été remis **pour étude** à [[Eldrich Runeweaver]] et [[Thaya]].
+- **Nouvelle entité** : **[[The Whispered Promise]]** (lumière mauve) a confié à **[[Olum]]** la **[[Promised Greataxe]]** — la transformation d'**[[Olyss]]** — à l'[[Inscrutable Tower]] (07/09/2026).
 - La **cathédrale de Saint Virtuvio** a été prise puis **abandonnée** par le Silver Order au profit de Temple Gate ; le **Falling Fire** monte en puissance (anges invoqués).
-- Nouveau fil : **[[Ryan Graymere]]** (la *Iron Banshee*) au **Rose Theatre** veut l'accès à la tour et un vrai changement à l'Académie.
-- Objectif en cours : obtenir le **simulacrum** d'**[[Eldrich Runeweaver]]** au **[[Kleinberg Estate]]** (22/06/2026).
+- Nouveau fil : **[[Ryan Graymere]]** (la *Iron Banshee*) au **Rose Theatre** ; **réconciliée avec [[Eldrich Runeweaver]]** par les Hazebreakers (pourparlers sans engagement précis) — en échange, promesse de **libérer l'[[Inscrutable Tower]]** en réactivant le **Nexus**.
+- Fil clos : le **simulacrum** d'**[[Eldrich Runeweaver]]** n'a pas été nécessaire — les pourparlers au [[Rose Theatre]] se sont tenus avec Eldrich en personne ([[La Iron Banshee et le Rose Theatre]]).
+- **Dette infernale** : tout le groupe est **marqué** par le [[Pacte des âmes (He Who Laughs Last)|pacte]] d'**[[He Who Laughs Last]]** (**6 âmes/an pendant 100 ans**) et détient une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]**.
+- **Retour après 100 jours** d'absence dans le monde matériel (le temps du [[Space Between Realms]]) ; le **portail** de la [[Clock Tower]] est **stabilisé** et le **refuge hors-temps** du [[Prof. Oupsius]] accessible.
 
 ---
 
@@ -72,7 +77,7 @@ date_maj: 2026-06-22
 | [[Eldrich Runeweaver]] | Amethyst Academy | vivant |
 | [[Elias Drexel]] | Hooded Lanterns | vivant |
 | [[Flamekeeper Anna]] | Silver Order | vivante |
-| [[Friedrich von Lichten]] | Indépendant | inconnu |
+| [[Friedrich von Lichten]] | Indépendant | mort |
 | [[Gardakonne]] | Indépendant | vivant |
 | [[Handsome]] | Hooded Lanterns | vivant |
 | [[He Who Laughs Last]] | Indépendant | inconnu |
@@ -99,6 +104,7 @@ date_maj: 2026-06-22
 | [[Petra]] | Hooded Lanterns | vivant |
 | [[Pluto Jackson]] | Indépendant | vivant |
 | [[Prof. Oupsius]] | Amethyst Academy | inconnu |
+| [[Raven]] | Indépendant | vivante |
 | [[Rufus Appolo]] | Falling Fire | vivant |
 | [[Ryan Graymere]] | Amethyst Academy | vivante |
 | [[Salazar]] | Amethyst Academy | vivant |
@@ -119,12 +125,11 @@ date_maj: 2026-06-22
 | [[Déloger la Queen of Thieves]] | [[Les Hazebreakers]] (initiative propre) | en cours |
 | [[Explorer le cratère]] | Intérêt du groupe | en cours |
 | [[Investiguer la Duchesse]] | Intérêt du groupe | en cours |
-| [[La Iron Banshee et le Rose Theatre]] | [[Ryan Graymere]] (contact) | en cours |
 | [[Le passage secret de King's Gate]] | Inconnu | en cours |
 | [[Le vault des Von Kessel]] | Intérêt du groupe | en cours |
 | [[Les nains et Smithy on the Scar]] | [[Les nains de Drakkenheim]] | en cours |
 | [[Les reliques de Saint Virtuvio]] | [[Lucretia Mathias]] (implicite) | en cours |
-| [[Obtenir le simulacrum d'Eldrich]] | [[Eldrich Runeweaver]] | en cours |
+| [[Pacte des âmes (He Who Laughs Last)]] | [[He Who Laughs Last]] | en cours |
 | [[Parler à Drexel des troupes d'Éloïse]] | Éloïse (nains) | en cours |
 | [[Ramener un successeur au trône]] | [[Hooded Lanterns]] | en cours |
 | [[Récupérer les 6 artefacts de la couronne]] | Inconnu (intérêt du groupe) | en cours |
@@ -133,14 +138,14 @@ date_maj: 2026-06-22
 ### Dernières séances
 | Fichier | Date | Résumé |
 | --- | --- | --- |
-| [[Séance 2026-06-22 — Rose Theatre]] | 2026-06-22 | Combat contre les Silver Order et des cloakers ; le simulacrum d'Eldrich au Kleinberg Estate. |
-| [[Séance 2026-06-18 — La Iron Banshee]] | 2026-06-18 | Objets magiques de Thaya ; la Iron Banshee et ses exigences ; le Rose Theatre. |
-| [[Séance 2026-06-08 — Retour et géopolitique]] | 2026-06-08 | Retour des plans ; géopolitique bouleversée ; Edicts of Lumen ; la Iron Banshee. |
-| [[Séance 2026-05-18 — Victoire sur le Far Dweller]] | 2026-05-18 | Victoire sur le Far Dweller ; cristal dans son corps ; retour à la Clock Tower. |
-| [[Séance 2026-05-11 — Shadow Lands]] | 2026-05-11 | Shadow Lands — Lenneth Eventide, révélation oncle/nièce, pacte avec la figure masquée. |
-| [[Séance 2026-04-30 — Le Far Dweller]] | 2026-04-30 | TP dans une autre dimension ; le Far Dweller nous défonce (cliffhanger, tout le monde down). |
-| [[Séance 2026-04-20 — Clock Tower et Modrons]] | 2026-04-20 | Clock Tower — gargouilles, modrons en boucle, obélisque et portail interplanaire. |
-| [[Séance 2026-04-09 — Remise de Lenore]] | 2026-04-09 | Remise de Lenore aux Hooded Lanterns ; échange de lilies ; départ vers la Clock Tower. |
+| [[Séance 2026-10-19 — Spectres et apprentis contaminés]] | 2026-10-19 | Dans l'Inscrutable Tower, les Hazebreakers éliminent des spectres et affrontent des apprentis contaminés, avant de revenir dans les rues de Drakkenheim en direction de la Garrison. |
+| [[Séance 2026-10-15 — Les créatures ressortent du portail]] | 2026-10-15 | Le combat au Nexus se conclut ; après un repos court, les Hazebreakers traversent le gouffre de l'Inscrutable Tower et subissent une anomalie arcanique. |
+| [[Séance 2026-09-22 — Le Nexus du Director's Office]] | 2026-09-22 | Au-dessus du Director's Office, les Hazebreakers découvrent le Nexus ; sa réactivation ouvre des portails d'où surgissent des monstres. |
+| [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] | 2026-09-07 | Les Hazebreakers affrontent les monstruosités à l'entrée de l'Inscrutable Tower, puis vainquent ses gardiens dans le lobby. |
+| [[Séance 2026-08-31 — Enfants morts et pourparlers de l'Académie]] | 2026-08-31 | Après la mort de trois enfants tués par des créatures à têtes de requin, la tension monte entre les Hazebreakers et Salazar au sujet du risque pris pour les sauver. |
+| [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]] | 2026-08-24 | Dans un rêve, le patron warlock de Mike propose une voie alternative au One Who Laughs Last ; la discussion porte sur le Bienveillantisme. |
+| [[Séance 2026-08-18 — Les insectes du Pale Man]] | 2026-08-18 | Les Hazebreakers terrassent Friedrich von Lichten malgré les insectes qui les entravent et rapportent un œuf à Eldrich et Thaya. |
+| [[Séance 2026-08-11 — La fuite du Pale Man]] | 2026-08-11 | Friedrich von Lichten affirme avoir trouvé un remède à la folie de la contamination, puis s'échappe sous forme d'insectes ; Olum le poursuit. |
 
 ---
 

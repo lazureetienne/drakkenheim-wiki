@@ -12,7 +12,7 @@ aliases: []
 
 **Prêtresse** du [[Silver Order]] ; connaît la **magie des paladins**.
 
-- Présente au repos/veille après la défaite du [[King of the Fiests]] (voir [[Séance 2025-11-06 — Le King of the Fiests]]).
+- Présente au repos/veille après la défaite du [[King of the Feasts]] (voir [[Séance 2025-11-06 — Le King of the Feasts]]).
 
 ## Lié à
 - [[Silver Order]] · [[Theodore Marshall]] · [[Cathédrale de Saint Virtuvio]]

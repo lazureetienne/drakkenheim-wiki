@@ -13,6 +13,7 @@ resume: Retour des plans ; géopolitique bouleversée ; Edicts of Lumen ; la Iro
 - Le **portail** est **stabilisé** : plusieurs options, dont le **[[Space Between Realms]]**.
 - **[[Prof. Oupsius]]** tente un [[Sending (sort)]] et devient **incapacité / fou** ; *Lesser Restoration* ne suffit pas.
 - Retrouvés par **[[Petra]]** et ses rangers.
+- **100 jours** se sont écoulés dans le monde matériel pendant l'absence du groupe (« Cela fait cent jours que vous avez disparu ») ; tout le groupe passe **niveau 10** ([[Séance 2026-05-18 — Victoire sur le Far Dweller]]).
 - Meeting avec **[[Thaya]]**, **[[Eldrich Runeweaver]]** et **[[Elias Drexel|Drexel]]** à la garnison : le **paysage géopolitique** a changé pendant notre absence.
 	- Le **[[Silver Order]]** a **abandonné la cathédrale** et s'est replié à **[[Temple Gate]]**. Beaucoup de ses membres ont rejoint le **[[Falling Fire]]**, qui a réussi à **invoquer des anges**. Peu de nouvelles des **Queensmen**.
 - **[[Thaya]] / [[Eldrich Runeweaver|Eldrich]]** évoquent un académicien **exclu** : **[[Friedrich von Lichten]]** (l'« Homme Pâle ») — méthodes discutables, mais résultats au rendez-vous (contamination).

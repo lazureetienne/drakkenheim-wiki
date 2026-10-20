@@ -9,7 +9,7 @@ aliases:
   - Drakkenheim
   - Wiki Drakkenheim
 description: Wiki de la campagne D&D « Drakkenheim » — séances, personnages, factions, lieux, quêtes et objets, tous reliés entre eux.
-date_maj: 2026-10-14
+date_maj: 2026-10-19
 ---
 # 🎲 Journal de campagne
 

@@ -18,12 +18,11 @@ Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenhei
 | [[Déloger la Queen of Thieves]] | [[Les Hazebreakers]] (initiative propre) | en cours |
 | [[Explorer le cratère]] | Intérêt du groupe | en cours |
 | [[Investiguer la Duchesse]] | Intérêt du groupe | en cours |
-| [[La Iron Banshee et le Rose Theatre]] | [[Ryan Graymere]] (contact) | en cours |
 | [[Le passage secret de King's Gate]] | Inconnu | en cours |
 | [[Le vault des Von Kessel]] | Intérêt du groupe | en cours |
 | [[Les nains et Smithy on the Scar]] | [[Les nains de Drakkenheim]] | en cours |
 | [[Les reliques de Saint Virtuvio]] | [[Lucretia Mathias]] (implicite) | en cours |
-| [[Obtenir le simulacrum d'Eldrich]] | [[Eldrich Runeweaver]] | en cours |
+| [[Pacte des âmes (He Who Laughs Last)]] | [[He Who Laughs Last]] | en cours |
 | [[Parler à Drexel des troupes d'Éloïse]] | Éloïse (nains) | en cours |
 | [[Ramener un successeur au trône]] | [[Hooded Lanterns]] | en cours |
 | [[Récupérer les 6 artefacts de la couronne]] | Inconnu (intérêt du groupe) | en cours |
@@ -32,7 +31,9 @@ Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenhei
 ## Terminées
 | Fichier | Commanditaire |
 | --- | --- |
+| [[Accompagner le simulacrum d'Eldrich]] | [[Eldrich Runeweaver]] |
 | [[Éliminer Oscar]] | [[Theodore Marshall]] |
+| [[La Iron Banshee et le Rose Theatre]] | [[Ryan Graymere]] (contact) |
 | [[Monter un partenariat Académie - Hooded Lanterns]] | [[Les Hazebreakers]] |
 | [[Réparer la Clock Tower]] | Inconnu (urgence « 7 jours ») |
 | [[Reprendre Temple Gate et Saint Virtuvio]] | [[Elias Drexel]] |
@@ -63,4 +64,5 @@ Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenhei
 - [[Ramener un successeur au trône]]
 - [[Vaincre le Far Dweller]]
 - [[Parler à Drexel des troupes d'Éloïse]]
-- [[Obtenir le simulacrum d'Eldrich]]
+- [[Accompagner le simulacrum d'Eldrich]]
+- [[Pacte des âmes (He Who Laughs Last)]]

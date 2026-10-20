@@ -32,7 +32,11 @@ Nom complet : **Garda Von Konne** (dite **Gardakonne** / **Garda**) — **femme*
 - Commande une **armure en alliage de délirium** à [[Tobias Crowe]] (10 jours).
 - S'entretient avec [[Sebastien Crowe]] ; s'entraîne (avec [[Olum]]) contre [[Elias Drexel]].
 - Passe du temps avec l'aubergiste du [[Red Lion Inn]].
+- Récupère le **[[Javelin of Lightning]]** dans le **trésor de la [[Cathédrale de Saint Virtuvio]]** et en porte le **coup de grâce** sur le [[Far Dweller]].
+- Prélève le **[[Tentacule du Far Dweller]]** (trophée, ~10 pieds, fixé à sa ceinture).
+- Porte une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]** et la **marque au fer rouge** du [[Pacte des âmes (He Who Laughs Last)|pacte]].
 
 ## Lié à
 - [[Olum]] (oncle) · [[Caspia]] · [[The Queen of Thieves]]
+- [[Javelin of Lightning]] · [[Tentacule du Far Dweller]] · [[Kingsmoot]]
 - Séance : [[Séance 2025-12-27 — Manoir et Smithy on the Scar]]

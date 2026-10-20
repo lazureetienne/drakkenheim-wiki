@@ -9,6 +9,8 @@ classe: PNJ
 aliases:
   - Lord Commander
   - Drexel
+  - Commandant Dragou
+  - Dracks
 ---
 # Elias Drexel
 

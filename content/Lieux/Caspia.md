@@ -28,8 +28,9 @@ status: inconnu
 > [!info] L'honneur avant tout
 > L'**honneur** est une valeur capitale à Caspia — et encore plus dans certaines maisons, comme la famille Arzum. La disgrâce d'un membre suffit à salir toute la famille.
 
-- Le **Rex Colosseum** de la [[Tower of Swords]] accueille les combats d'arène ; y mourir « une mort glorieuse » peut ramener l'honneur à une famille disgraciée.
+- Le **Rex Colosseum** de la [[Tower of Swords]] accueille les combats d'arène ; y mourir « une mort glorieuse » peut ramener l'honneur à une famille disgracieuse.
 - Les familles déshonorées envoient parfois leurs membres au **couvent** ou à l'**arène**.
+- Le **[[Kingsmoot]]** : assemblée / tournoi où se joue l'honneur des maisons — objectif de [[Gardakonne]]
 
 ## Lié à
-- [[Westemar]] · [[Tower of Swords]] · [[Olum]] · [[Gardakonne]] · [[Jupiter Jones]] · [[Pluto Jackson]] · [[Olyss]]
+- [[Westemar]] · [[Tower of Swords]] · [[Kingsmoot]] · [[Olum]] · [[Gardakonne]] · [[Jupiter Jones]] · [[Pluto Jackson]] · [[Olyss]]

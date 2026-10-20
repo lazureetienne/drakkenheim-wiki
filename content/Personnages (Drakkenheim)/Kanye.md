@@ -25,7 +25,9 @@ Nom complet : **Kanye de l'Ouest** — c'est bien lui le fameux **« Monsieur de
 - Se fait « fist » par des trolls élementaires (voir [[Séance 2025-09-15 — Bark and Buzzard]]).
 - Se fait **agripper le pied par la Duchesse** à la rivière de Sticks (mars 2026).
 - Reçoit un **Fireball** de [[Salazar]] pendant le combat contre les dryades.
+- Mène la **négociation du pacte** des [[Shadow Lands]] avec [[He Who Laughs Last]] ; porte une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]** et la **marque au fer rouge** ([[Pacte des âmes (He Who Laughs Last)]]).
 
 ## Lié à
 - [[Mike]] · [[Les Hazebreakers]] · [[Alex]] (joueur)
-- Séances : [[Séance 2025-09-29 — Les trolls]] · [[Séance 2026-03-10 — Retour vers Emberwood]]
+- [[Pacte des âmes (He Who Laughs Last)]] · [[Lanternes de l'Enfer]]
+- Séances : [[Séance 2025-09-29 — Les trolls]] · [[Séance 2026-03-10 — Retour vers Emberwood]] · [[Séance 2026-05-11 — Shadow Lands]]
