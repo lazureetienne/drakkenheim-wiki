@@ -312,6 +312,12 @@ a.tag-link:not(ul.tags a) {
   .page > #quartz-body .readermode {
     width: 44px;
     height: 44px;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 24px 24px;
+    mask-size: 24px 24px;
   }
 
   .page > #quartz-body .sidebar.left .explorer button.mobile-explorer {

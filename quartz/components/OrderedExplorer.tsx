@@ -32,8 +32,26 @@
  * fichier avec les sources du plugin
  * (https://github.com/quartz-community/explorer) et reporter les changements.
  */
-import type { QuartzComponentConstructor } from "@quartz-community/types"
+import type { QuartzComponent, QuartzComponentConstructor } from "@quartz-community/types"
 import { Explorer, type ExplorerOptions } from "@quartz-community/explorer/components"
+
+const collapseMobileExplorerScript = `
+const collapseMobileExplorer = () => {
+  if (!window.matchMedia("(max-width: 800px)").matches) return
+
+  document.querySelectorAll(".sidebar.left .explorer").forEach((explorer) => {
+    if (!explorer.querySelector(".mobile-explorer")) return
+    explorer.classList.add("collapsed")
+    explorer.setAttribute("aria-expanded", "false")
+  })
+  document.documentElement.classList.remove("mobile-no-scroll")
+}
+
+document.addEventListener("nav", collapseMobileExplorer)
+document.addEventListener("render", collapseMobileExplorer)
+window.addEventListener("resize", collapseMobileExplorer)
+requestAnimationFrame(collapseMobileExplorer)
+`
 
 /**
  * Tri de l'explorateur : `Drakkenheim Campagne` en tête, `Méta` en queue,
@@ -62,5 +80,14 @@ const orderedSortFn = (a: any, b: any): number => {
 }
 
 export default ((userOpts?: Partial<ExplorerOptions>) => {
-  return Explorer({ ...userOpts, sortFn: orderedSortFn })
+  const ExplorerComponent = Explorer({ ...userOpts, sortFn: orderedSortFn })
+  const OrderedExplorer: QuartzComponent = (props) => ExplorerComponent(props)
+  OrderedExplorer.css = ExplorerComponent.css
+  const existingScripts = ExplorerComponent.afterDOMLoaded ?? []
+  OrderedExplorer.afterDOMLoaded = [
+    ...(typeof existingScripts === "string" ? [existingScripts] : existingScripts),
+    collapseMobileExplorerScript,
+  ]
+
+  return OrderedExplorer
 }) satisfies QuartzComponentConstructor
