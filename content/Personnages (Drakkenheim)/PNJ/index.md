@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Personnages non-joueurs par faction
+# PNJ
 
 Notes de la sous-catégorie **Personnages non-joueurs par faction**.
 

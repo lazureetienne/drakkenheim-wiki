@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Amethyst Academy
+# Amethyst Academy
 
 Notes de la sous-catégorie **Amethyst Academy**.
 

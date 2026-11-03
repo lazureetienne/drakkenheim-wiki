@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Figures
+# Figures
 
 Notes de la sous-catégorie **Figures**.
 

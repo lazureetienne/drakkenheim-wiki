@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Silver Order
+# Silver Order
 
 Notes de la sous-catégorie **Silver Order**.
 

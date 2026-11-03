@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Les Von Kessel
+# Les Von Kessel
 
 Notes de la sous-catégorie **Les Von Kessel**.
 

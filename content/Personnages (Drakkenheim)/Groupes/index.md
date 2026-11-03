@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Groupes
+# Groupes
 
 Notes de la sous-catégorie **Groupes**.
 

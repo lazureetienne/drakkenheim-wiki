@@ -5,7 +5,7 @@ tags:
   - index
   - objet
 ---
-# 🎁 Équipement et trésors
+# Équipement et trésors
 
 Notes de la sous-catégorie **Équipement et trésors**.
 

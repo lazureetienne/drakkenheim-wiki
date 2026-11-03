@@ -5,7 +5,7 @@ tags:
   - index
   - lieu
 ---
-# 🗺️ Lieux de Drakkenheim
+# Drakkenheim
 
 Notes de la sous-catégorie **Lieux de Drakkenheim**.
 

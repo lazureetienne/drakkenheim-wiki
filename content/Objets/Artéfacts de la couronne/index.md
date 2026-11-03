@@ -5,7 +5,7 @@ tags:
   - index
   - objet
 ---
-# 🎁 Artéfacts de la couronne
+# Artéfacts de la couronne
 
 Notes de la sous-catégorie **Artéfacts de la couronne**.
 

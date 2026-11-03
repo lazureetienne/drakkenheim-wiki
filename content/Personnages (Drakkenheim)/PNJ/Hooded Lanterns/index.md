@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Hooded Lanterns
+# Hooded Lanterns
 
 Notes de la sous-catégorie **Hooded Lanterns**.
 

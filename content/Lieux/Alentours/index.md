@@ -5,7 +5,7 @@ tags:
   - index
   - lieu
 ---
-# 🗺️ Alentours de Drakkenheim
+# Alentours
 
 Notes de la sous-catégorie **Alentours de Drakkenheim**.
 

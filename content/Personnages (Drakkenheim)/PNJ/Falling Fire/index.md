@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Falling Fire
+# Falling Fire
 
 Notes de la sous-catégorie **Falling Fire**.
 

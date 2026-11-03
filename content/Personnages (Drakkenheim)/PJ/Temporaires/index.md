@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Personnages joueurs temporaires
+# Temporaires
 
 Notes de la sous-catégorie **Personnages joueurs temporaires**.
 

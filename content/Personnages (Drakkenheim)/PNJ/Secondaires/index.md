@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Personnages secondaires
+# Secondaires
 
 Notes de la sous-catégorie **Personnages secondaires**.
 

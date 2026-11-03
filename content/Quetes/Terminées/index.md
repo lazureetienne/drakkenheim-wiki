@@ -5,7 +5,7 @@ tags:
   - index
   - quete
 ---
-# 📜 Quêtes terminées
+# Terminées
 
 Notes de la sous-catégorie **Quêtes terminées**.
 

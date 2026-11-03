@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Personnages joueurs
+# PJ
 
 Notes de la sous-catégorie **Personnages joueurs**.
 

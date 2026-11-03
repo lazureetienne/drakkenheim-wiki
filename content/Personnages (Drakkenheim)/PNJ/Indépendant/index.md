@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Indépendant
+# Indépendant
 
 Notes de la sous-catégorie **Indépendant**.
 

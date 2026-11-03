@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Créatures et entités
+# Créatures
 
 Notes de la sous-catégorie **Créatures et entités**.
 

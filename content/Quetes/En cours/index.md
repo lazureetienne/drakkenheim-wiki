@@ -5,7 +5,7 @@ tags:
   - index
   - quete
 ---
-# 📜 Quêtes en cours
+# En cours
 
 Notes de la sous-catégorie **Quêtes en cours**.
 

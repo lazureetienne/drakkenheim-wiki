@@ -5,7 +5,7 @@ tags:
   - index
   - lieu
 ---
-# 🗺️ Autres lieux
+# Autres lieux
 
 Notes de la sous-catégorie **Autres lieux**.
 

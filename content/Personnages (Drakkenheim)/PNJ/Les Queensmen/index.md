@@ -5,7 +5,7 @@ tags:
   - index
   - personnage
 ---
-# 🧑 Les Queensmen
+# Les Queensmen
 
 Notes de la sous-catégorie **Les Queensmen**.
 
