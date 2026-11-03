@@ -65,10 +65,11 @@ Nom complet : **Olum Arzum** (dit **Olum**) — **demi-orc**, âgé de **41 ans*
 - Poursuit **[[Friedrich von Lichten]]** sous forme de nuée d'insectes en **creusant le plancher** avec **[[Olyss]]** ([[Séance 2026-08-11 — La fuite du Pale Man]]).
 - **Seul membre du groupe épargné** par l'**anomalie arcanique** qui transforme les autres en squelettes au cours de la traversée du gouffre de l'[[Inscrutable Tower]] ([[Séance 2026-10-15 — Les créatures ressortent du portail]]).
 - Approche une **mystérieuse lumière mauve** lors du combat du lobby de l'[[Inscrutable Tower]] : **conversation privée** en une fraction de seconde avec **[[The Whispered Promise]]**, qui lui confie la **[[Promised Greataxe]]** — la transformation d'**[[Olyss]]** ([[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]]).
+- Passe **niveau 12** après la réactivation du Nexus ; prend le feat **Great Weapon Master** et nourrit sa **[[Promised Greataxe]]** d'un **éclat de [[Delirium]]** pour recharger sa propriété **Promised devastation**. Sa contamination est convertie en **2 niveaux d'épuisement**, résorbés par deux repos longs ; quelques plaques restent ouvertes, laissant les os visibles ([[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
 
 ## Lié à
 - Famille : [[Gardakonne]] (nièce) · Yasmina · Vari · Roxana
 - Lieux : [[Caspia]] · [[Kingsmoot]] · [[Tower of Swords]] (Rex Colosseum) · [[Shadow Lands]]
 - Groupe : [[Les Hazebreakers]] · objets : [[Olyss]] · [[Promised Greataxe]] · [[Lanternes de l'Enfer]] · [[Tobias Crowe]]
 - Quête : [[Pacte des âmes (He Who Laughs Last)]]
-- Séances : [[Séance 2026-01-19 — Rencontre d'Olum]] · [[Séance 2026-03-19 — Rencontre avec l'Académie]] · [[Séance 2026-05-11 — Shadow Lands]] · [[Séance 2026-08-11 — La fuite du Pale Man]] · [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] · [[Séance 2026-10-15 — Les créatures ressortent du portail]]
+- Séances : [[Séance 2026-01-19 — Rencontre d'Olum]] · [[Séance 2026-03-19 — Rencontre avec l'Académie]] · [[Séance 2026-05-11 — Shadow Lands]] · [[Séance 2026-08-11 — La fuite du Pale Man]] · [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] · [[Séance 2026-10-15 — Les créatures ressortent du portail]] · [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

@@ -10,7 +10,7 @@ tags:
 Notes de la sous-catégorie **Personnages joueurs**.
 
 ## Sous-catégories
-- [[Personnages (Drakkenheim)/PJ/Temporaires/index|Personnages joueurs temporaires]]
+- [[Personnages (Drakkenheim)/PJ/Temporaires/Temporaires|Personnages joueurs temporaires]]
 
 ## Notes
 - [[Gardakonne]]

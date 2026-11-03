@@ -26,7 +26,8 @@ Il résidait au [[Kleinberg Estate]] — **vaincu** par les Hazebreakers en aoû
 - Tente de **fuir** sous la forme d'une **nuée d'insectes** qui entravent les aventuriers; [[Olum]] le poursuit en creusant le plancher avec [[Olyss]].
 - **Terrassé** par les Hazebreakers dans le sous-sol de Kleinberg Estate le **18/08/2026** (mort confirmée). 💀
 - Un objet décrit comme une sorte d'**œuf** retrouvé sur place a été remis à [[Eldrich Runeweaver]] et [[Thaya]], en plus de sa tête (afin qu'ils puissent en extirper les connaissances) ; **nature de l'œuf inconnue**, laissé **pour étude**.
+- Le groupe cite sa mort comme couverture face au Falling Fire, en le présentant comme un mage de l'Académie tué par les Hazebreakers ([[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
 
 ## Lié à
 - [[Amethyst Academy]] · [[Oscar Yorin]] · [[Ryan Graymere]] · [[Kleinberg Estate]] · [[Delerium Dregs]] · [[Raven]]
-- Séances : [[Séance 2026-06-08 — Retour et géopolitique]] · [[Séance 2026-07-06 — À la recherche du Pale Man]] · [[Séance 2026-07-20 — L'Estate sous influence]] · [[Séance 2026-08-03 — Les Delerium Dregs]] · [[Séance 2026-08-11 — La fuite du Pale Man]] · [[Séance 2026-08-18 — Les insectes du Pale Man]]
+- Séances : [[Séance 2026-06-08 — Retour et géopolitique]] · [[Séance 2026-07-06 — À la recherche du Pale Man]] · [[Séance 2026-07-20 — L'Estate sous influence]] · [[Séance 2026-08-03 — Les Delerium Dregs]] · [[Séance 2026-08-11 — La fuite du Pale Man]] · [[Séance 2026-08-18 — Les insectes du Pale Man]] · [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

@@ -4,16 +4,16 @@ tags:
   - drakkenheim
   - objet
 type_objet: artéfact
-detenteur: "[[The Queen of Thieves]]"
-status: donné
+detenteur: "[[Kanye]]"
+status: en possession
 ---
 # Chancellor's Crest
 
 **Artéfact** de la couronne de Drakkenheim.
 
 - Trouvé dans les **[[Les égouts|égouts]]** (sans aucun rapport avec [[La Duchesse]], qui est une entité monstrueuse des égouts).
-- Le groupe en disposait, puis [[Gardakonne]] l'a **cédé à la [[The Queen of Thieves|Queen of Thieves]]** lors du deal.
+- Détenu par **[[Kanye]]** (confirmation du 02/11/2026). Les notes antérieures l'attribuaient à tort à la [[The Queen of Thieves|Queen of Thieves]] : il y a eu confusion avec un autre objet lors du deal.
 
 ## Lié à
-- [[Récupérer les 6 artefacts de la couronne]] · [[Gardakonne]] · [[The Queen of Thieves]]
-- Séance : [[Séance 2025-08-18 — Deal avec la Queen]]
+- [[Récupérer les 6 artefacts de la couronne]] · [[Kanye]] · [[Les Hazebreakers]]
+- Séance : [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

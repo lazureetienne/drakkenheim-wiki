@@ -26,7 +26,7 @@ Nom complet : **Garda Von Konne** (dite **Gardakonne** / **Garda**) — **femme*
 - Rôle de négociatrice et de « tank » du groupe.
 
 ## Faits marquants
-- **Cède son [[Chancellor's Crest]]** à [[The Queen of Thieves]] lors du deal (voir [[Séance 2025-08-18 — Deal avec la Queen]]).
+- **Cède un objet** à [[The Queen of Thieves]] lors du deal (voir [[Séance 2025-08-18 — Deal avec la Queen]]) — les notes ont ensuite confondu cet objet avec le [[Chancellor's Crest]], qui est en réalité détenu par [[Kanye]].
 - Réalise un **foulage (rubbing)** de la carte gravée sur une stèle au [[Queen's Park Garden]] pour guider le groupe.
 - **Précommande** un diamant d'une valeur de 600 gp auprès de l'Académie.
 - Commande une **armure en alliage de délirium** à [[Tobias Crowe]] (10 jours).
@@ -35,8 +35,9 @@ Nom complet : **Garda Von Konne** (dite **Gardakonne** / **Garda**) — **femme*
 - Récupère le **[[Javelin of Lightning]]** dans le **trésor de la [[Cathédrale de Saint Virtuvio]]** et en porte le **coup de grâce** sur le [[Far Dweller]].
 - Prélève le **[[Tentacule du Far Dweller]]** (trophée, ~10 pieds, fixé à sa ceinture).
 - Porte une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]** et la **marque au fer rouge** du [[Pacte des âmes (He Who Laughs Last)|pacte]].
+- Remporte un **duel caspien** proposé par [[Jupiter Jones]] dans les rues de Drakkenheim (02/11/2026) : elle tue son troll de glace, puis vole la mise à mort de celui de Jupiter. Prend **Mounted Combatant** au niveau 12 et ajoute une **tête de troll glacé** à ses trophées.
 
 ## Lié à
 - [[Olum]] (oncle) · [[Caspia]] · [[The Queen of Thieves]]
 - [[Javelin of Lightning]] · [[Tentacule du Far Dweller]] · [[Kingsmoot]]
-- Séance : [[Séance 2025-12-27 — Manoir et Smithy on the Scar]]
+- Séance : [[Séance 2025-12-27 — Manoir et Smithy on the Scar]] · [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

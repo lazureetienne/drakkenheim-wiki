@@ -46,8 +46,9 @@ Nom complet : **Mike Rizzowski** (dit **Mike**).
 - [[Thaya]] lui donne ses bottes — voir [[Bottes de Vol]].
 - Porte une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]** et la **marque au fer rouge** du [[Pacte des âmes (He Who Laughs Last)|pacte]].
 - Son **patron warlock** lui parle en **rêve** et lui propose une **voie alternative à [[He Who Laughs Last]]** ; discussion sur le **Bienveillantisme** (surnom « le Bienveillant ») ([[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]]).
+- Atteint son **dixième niveau de warlock** (Hexblade) en passant niveau 12 : obtient **Armor of Hexes** (réaction, d6 ; sur 4+, l'attaque d'une cible maudite par sa *Hexblade's Curse* rate) et le cantrip ***Mind Sliver*** ([[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
 
 ## Lié à
 - [[Tower of Swords]] · [[Amethyst Academy]] (*section interdite*) · [[Marin]] (joueur)
 - [[Hallebarde de Mike]] · [[Bottes de Vol]] · [[Lanternes de l'Enfer]] · [[Pacte des âmes (He Who Laughs Last)]] · [[Far Dweller]]
-- Séances : [[Séance 2025-09-29 — Les trolls]] · [[Séance 2026-04-09 — Remise de Lenore]] · [[Séance 2026-05-18 — Victoire sur le Far Dweller]] · [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]]
+- Séances : [[Séance 2025-09-29 — Les trolls]] · [[Séance 2026-04-09 — Remise de Lenore]] · [[Séance 2026-05-18 — Victoire sur le Far Dweller]] · [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]] · [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

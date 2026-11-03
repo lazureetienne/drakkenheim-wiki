@@ -12,10 +12,10 @@ aliases:
 Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenheim Campagne#🎯 Le plan|plan de campagne]].
 
 ## Sous-catégories
-- [[Quetes/En cours/index|En cours]]
-- [[Quetes/Terminées/index|Terminées]]
+- [[Quetes/En cours/En cours|En cours]]
+- [[Quetes/Terminées/Terminées|Terminées]]
 
-## À faire / en cours
+
 | Fichier | Commanditaire | Statut |
 | --- | --- | --- |
 | [[Allumer la grande flamme de la cathédrale]] | Intérêt du groupe | en cours |
@@ -49,5 +49,24 @@ Toutes les quêtes et objectifs suivis par le groupe. Voir aussi le [[Drakkenhei
 
 ## Notes individuelles
 
-- [[Quetes/En cours/index|Toutes les quêtes en cours]]
-- [[Quetes/Terminées/index|Toutes les quêtes terminées]]
+- [[Récupérer les 6 artefacts de la couronne]]
+- [[Éliminer Oscar]]
+- [[Retrouver la Reine Lenore von Kessel]]
+- [[Explorer le cratère]]
+- [[Investiguer la Duchesse]]
+- [[Reprendre Temple Gate et Saint Virtuvio]]
+- [[Allumer la grande flamme de la cathédrale]]
+- [[Le vault des Von Kessel]]
+- [[Déloger la Queen of Thieves]]
+- [[Sécuriser l'Inscrutable Tower]]
+- [[Monter un partenariat Académie - Hooded Lanterns]]
+- [[Les reliques de Saint Virtuvio]]
+- [[Les nains et Smithy on the Scar]]
+- [[Le passage secret de King's Gate]]
+- [[La Iron Banshee et le Rose Theatre]]
+- [[Réparer la Clock Tower]]
+- [[Ramener un successeur au trône]]
+- [[Vaincre le Far Dweller]]
+- [[Parler à Drexel des troupes d'Éloïse]]
+- [[Accompagner le simulacrum d'Eldrich]]
+- [[Pacte des âmes (He Who Laughs Last)]]

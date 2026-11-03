@@ -18,8 +18,9 @@ aliases:
 - **Rouvre le portail** vers la [[Clock Tower]].
 - Révèle : **1 an dans le *Space Between Realms* = 40 ans** sur le plan matériel (un repos long de 4 jours = 160 jours).
 - Tente un **[[Sending (sort)|Sending]]** et devient **incapacité / fou** ; *Lesser Restoration* ne suffit pas à le sauver.
-- Tient un **refuge hors-temps** dans le [[Space Between Realms]] ; après le Sending, il est **incapable de parler normalement** — soins requis (Heal / Greater Restoration ?) : **question ouverte**.
+- Tient un **refuge hors-temps** dans le [[Space Between Realms]] ; après le Sending, il reste **incapable de parler normalement pendant deux jours (in game)**, puis est **soigné** de son mutisme.
+- Présent à la Garrison lors du rapport du groupe sur le Nexus ([[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
 
 ## Lié à
 - [[Far Dweller]] · [[Space Between Realms]] · [[Clock Tower]] · [[Amethyst Academy]] · [[Salazar]]
-- Séances : [[Séance 2026-05-18 — Victoire sur le Far Dweller]] · [[Séance 2026-06-08 — Retour et géopolitique]]
+- Séances : [[Séance 2026-05-18 — Victoire sur le Far Dweller]] · [[Séance 2026-06-08 — Retour et géopolitique]] · [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

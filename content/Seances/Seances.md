@@ -9,7 +9,7 @@ aliases:
 ---
 # 📖 Séances
 
-Résumés séance par séance, du **24/03 (2025)** au **19/10/2026**.
+Résumés séance par séance, du **24/03 (2025)** au **02/11/2026**.
 Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise le format `JJ/MM`.
 
 | Fichier | Date | Résumé |
@@ -31,7 +31,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2025-07-21 — Buckledown Row]] | 2025-07-21 | Enquête sur la Queen of Thieves ; arrivée à Buckledown Row. |
 | [[Séance 2025-08-04 — Le Fighting Pit]] | 2025-08-04 | Le tournoi du fighting pit ; 4 équipes affrontées. |
 | [[Séance 2025-08-11 — Les champions de la Queen]] | 2025-08-11 | Vainc les Howling Dogs ; embuscade de Veronica ; rencontre de la Queen ; Big Linda. |
-| [[Séance 2025-08-18 — Deal avec la Queen]] | 2025-08-18 | Deal avec la Queen ; le Chancellor's Crest ; la piste « Tigz ». |
+| [[Séance 2025-08-18 — Deal avec la Queen]] | 2025-08-18 | Deal avec la Queen ; un objet cédé (identifié à tort comme le Chancellor's Crest dans les notes) ; la piste « Tigz ». |
 | [[Séance 2025-08-25 — Jupiter Jones]] | 2025-08-25 | Rencontre de Jupiter Jones ; retour de Thaya ; préparation du coup contre la Queen. |
 | [[Séance 2025-09-03 — Le Falling Fire]] | 2025-09-03 | Rencontre avec le Falling Fire ; doctorat sur le delirium-conteneur d'âmes. |
 | [[Séance 2025-09-15 — Bark and Buzzard]] | 2025-09-15 | Repos à Emberwood ; combat contre 3 trolls élémentaires au Bark and Buzzard. |
@@ -73,6 +73,7 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2026-09-22 — Le Nexus du Director's Office]] | 2026-09-22 | Au-dessus du Director's Office, les Hazebreakers découvrent le Nexus ; sa réactivation ouvre des portails d'où surgissent des monstres. |
 | [[Séance 2026-10-15 — Les créatures ressortent du portail]] | 2026-10-15 | Le combat au Nexus se conclut ; après un repos court, les Hazebreakers traversent le gouffre de l'Inscrutable Tower et subissent une anomalie arcanique. |
 | [[Séance 2026-10-19 — Spectres et apprentis contaminés]] | 2026-10-19 | Dans l'Inscrutable Tower, les Hazebreakers éliminent des spectres et affrontent des apprentis contaminés, avant de revenir dans les rues de Drakkenheim en direction de la Garrison. |
+| [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]] | 2026-11-02 | Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et prépare une reconnaissance contre le Falling Fire. |
 
 ## Séances individuelles
 
@@ -135,3 +136,4 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 - [[Séance 2026-09-22 — Le Nexus du Director's Office]]
 - [[Séance 2026-10-15 — Les créatures ressortent du portail]]
 - [[Séance 2026-10-19 — Spectres et apprentis contaminés]]
+- [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]

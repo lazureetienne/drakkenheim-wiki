@@ -13,4 +13,5 @@ Notes de la sous-catégorie **Créatures et entités**.
 - [[Delerium Dregs]]
 - [[Far Dweller]]
 - [[King of the Feasts]]
+- [[Minazorond]]
 - [[The Whispered Promise]]

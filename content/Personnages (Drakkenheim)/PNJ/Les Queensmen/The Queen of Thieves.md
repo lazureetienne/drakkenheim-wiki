@@ -21,7 +21,7 @@ Cheffe des **[[Les Queensmen|Queensmen]]**, basée à **[[Buckledown Row]]**. À
 - Réfère le groupe à **« Tigz »** pour écouler des objets volés.
 
 ## Le deal et la trahison
-- Deal : retirer ses doppelgängers contre **1 seal + [[Objets de fireball|10 scrolls of fireball, 1 wand of fireball, 1 necklace of fireball]]**. [[Gardakonne]] lui cède son **[[Chancellor's Crest]]**.
+- Deal : retirer ses doppelgängers contre **1 seal + [[Objets de fireball|10 scrolls of fireball, 1 wand of fireball, 1 necklace of fireball]]**. [[Gardakonne]] lui cède un objet — identifié à tort comme le **[[Chancellor's Crest]]** dans les notes (correction du 02/11/2026).
 - **Elle n'a pas tenu parole** : elle a **volé le [[Sceptre of St Virtuvio]]** pendant l'attaque de la cathédrale.
 - A **attaqué [[Smithy on the Scar]]** pour de l'or et du délirium, alors que ses troupes étaient mobilisées par « une vaste opération à la cathédrale ».
 - A envoyé des gens dans la ville pour **chercher des artéfacts**.
