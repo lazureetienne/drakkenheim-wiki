@@ -21,7 +21,7 @@ aliases:
 	- les gnolls avaient une **statue** de cette créature à la **[[Cathédrale de Saint Virtuvio]]**.
 - Après la visite des [[Shadow Lands]], un **portail** mène à son domaine : un **grand colisée** où le **pacte** est scellé — tuer **6 mortels par an pendant 100 ans** (ou jusqu'à notre mort) en échange de la **mortalité**. → **Le groupe signe.**
 - **Marque au fer rouge** apposée sur le **bras** de chaque membre ; remise d'une **[[Lanternes de l'Enfer|Lanterne de l'Enfer]]** à chacun (détails : [[Pacte des âmes (He Who Laughs Last)]]).
-- Serait un **Seigneur Démon** ; son colisée est situé en [[Avernus]].
+- Serait un **Seigneur Démon** ; son colisée est situé en Avernus.
 - Il aurait de grandes cornes et des ailes de corbeau.
 ## Lié à
 - [[Lenneth Eventide]] · [[Reed Manor]] · [[Cathédrale de Saint Virtuvio]] · [[Shadow Lands]]

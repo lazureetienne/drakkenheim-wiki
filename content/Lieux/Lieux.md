@@ -11,6 +11,11 @@ aliases:
 
 Villes, quartiers, donjons et points d'intérêt de Drakkenheim et du royaume.
 
+## Sous-catégories
+- [[Lieux/Drakkenheim/index|Drakkenheim]]
+- [[Lieux/Alentours/index|Alentours]]
+- [[Lieux/Autres lieux/index|Autres lieux]]
+
 | Fichier | Région | Statut |
 | --- | --- | --- |
 | [[Bark and Buzzard]] | [[Emberwood Village]] | habité |

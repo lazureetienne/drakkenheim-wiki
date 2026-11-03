@@ -14,7 +14,7 @@ date_maj: 2026-10-19
 > Notes de **joueur** pour la campagne *Dungeons & Dragons* située à **Drakkenheim**.
 > Groupe : **[[Les Hazebreakers]]**.
 > Dernière séance consignée : **19/10/2026**.
-> Notes brutes d'origine (import OneNote) : [[OneNote Imports/DnD - Royaume/Drakkenheim/Drakkenheim|Journal brut (OneNote)]].
+> Notes brutes d'origine (import OneNote) : Journal brut (OneNote).
 
 > [!warning] Conventions
 > Ce dossier réorganise le journal brut en notes catégorisées et reliées entre elles.

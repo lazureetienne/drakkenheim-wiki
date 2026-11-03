@@ -11,6 +11,14 @@ aliases:
 
 Index de tous les personnages (PJ et PNJ) de la campagne. Voir aussi les [[Factions]].
 
+## Sous-catégories
+- [[Personnages (Drakkenheim)/PJ/index|Personnages joueurs]]
+- [[Personnages (Drakkenheim)/PJ/Temporaires/index|Personnages temporaires]]
+- [[Personnages (Drakkenheim)/PNJ/index|Personnages non-joueurs, classés par faction]]
+- [[Personnages (Drakkenheim)/Groupes/index|Groupes]]
+- [[Personnages (Drakkenheim)/Créatures/index|Créatures et entités]]
+- [[Personnages (Drakkenheim)/Figures/index|Figures]]
+
 > [!tip] Légende
 > `faction` = allégeance connue · `status` = vivant / mort / inconnu / mineur.
 > `joueur` = joueur de la table qui incarne le PJ ; `type: joueur` = **fiche de joueur** (méta, pas un personnage).
