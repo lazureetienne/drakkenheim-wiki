@@ -17,7 +17,7 @@ Index de tous les personnages (PJ et PNJ) de la campagne. Voir aussi les [[Facti
 - [[Personnages (Drakkenheim)/PNJ/PNJ|Personnages non-joueurs, classés par faction]]
 - [[Personnages (Drakkenheim)/Groupes/Groupes|Groupes]]
 - [[Personnages (Drakkenheim)/Créatures/Créatures|Créatures et entités]]
-- [[Personnages (Drakkenheim)/Figures/Figures|Figures]]
+- [[Personnages (Drakkenheim)/Figures religieuses/Figures religieuses|Figures religieuses]]
 
 
 > `faction` = allégeance connue · `status` = vivant / mort / inconnu / mineur.

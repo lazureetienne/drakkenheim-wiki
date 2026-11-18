@@ -14,4 +14,5 @@ Notes de la sous-catégorie **Créatures et entités**.
 - [[Far Dweller]]
 - [[King of the Feasts]]
 - [[Minazorond]]
+- [[Sainte Lana]]
 - [[The Whispered Promise]]

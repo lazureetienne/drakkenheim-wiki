@@ -14,7 +14,7 @@ resume: Dans un rêve, le patron warlock de Mike propose une voie alternative au
 - Mike, surnommé depuis toujours « le Bienveillant », discute du **Bienveillantisme**.
 
 > [!question] À confirmer
-> Le nom et la nature du patron de Mike ne sont pas précisés ici (confirmé depuis : identité inconnue, relié à sa hallebarde — voir [[Mike]]).
+> Le nom et la nature du patron de Mike ne sont pas précisés ici (identité inconnue, relié à sa hallebarde — voir [[Mike]]).
 
 ## Lié à
 - [[Mike]] · [[He Who Laughs Last]]

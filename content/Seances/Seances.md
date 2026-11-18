@@ -9,7 +9,7 @@ aliases:
 ---
 # 📖 Séances
 
-Résumés séance par séance, du **24/03 (2025)** au **02/11/2026**.
+Résumés séance par séance, du **24/03 (2025)** au **16/11/2026**.
 Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise le format `JJ/MM`.
 
 | Fichier | Date | Résumé |
@@ -73,7 +73,8 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 | [[Séance 2026-09-22 — Le Nexus du Director's Office]] | 2026-09-22 | Au-dessus du Director's Office, les Hazebreakers découvrent le Nexus ; sa réactivation ouvre des portails d'où surgissent des monstres. |
 | [[Séance 2026-10-15 — Les créatures ressortent du portail]] | 2026-10-15 | Le combat au Nexus se conclut ; après un repos court, les Hazebreakers traversent le gouffre de l'Inscrutable Tower et subissent une anomalie arcanique. |
 | [[Séance 2026-10-19 — Spectres et apprentis contaminés]] | 2026-10-19 | Dans l'Inscrutable Tower, les Hazebreakers éliminent des spectres et affrontent des apprentis contaminés, avant de revenir dans les rues de Drakkenheim en direction de la Garrison. |
-| [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]] | 2026-11-02 | Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et prépare une reconnaissance contre le Falling Fire. |
+| [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]] | 2026-11-02 | Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et part en reconnaissance vers Saint Selina's Monastery. |
+| [[Séance 2026-11-16 — Saint Selina, la crypte et les anges gardiens]] | 2026-11-16 | Les Hazebreakers remontent la Drann River en Water Walk, escaladent la falaise de Saint Selina's Monastery et infiltrent la chapelle puis la crypte ; deux anges gardiens les interpellent, le Mind Sliver porte mais le Banishment échoue et l'initiative est renvoyée à la séance suivante. |
 
 ## Séances individuelles
 
@@ -137,3 +138,4 @@ Les séances se déroulaient de façon quasi hebdomadaire ; le journal utilise l
 - [[Séance 2026-10-15 — Les créatures ressortent du portail]]
 - [[Séance 2026-10-19 — Spectres et apprentis contaminés]]
 - [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]
+- [[Séance 2026-11-16 — Saint Selina, la crypte et les anges gardiens]]

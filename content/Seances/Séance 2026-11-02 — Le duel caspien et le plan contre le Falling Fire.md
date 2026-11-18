@@ -4,7 +4,7 @@ tags:
   - drakkenheim
   - seance
 date: 2026-11-02
-resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et prépare une reconnaissance contre le Falling Fire.
+resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et part en reconnaissance vers Saint Selina's Monastery.
 ---
 # Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire
 
@@ -17,7 +17,7 @@ resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre
 - Retour à la Garrison, repos long, décontamination d'**[[Olum]]** et **passage au niveau 12**. La peau repousse, sauf quelques plaques où les os restent visibles.
 - Rapport à l'**[[Amethyst Academy]]** : le Nexus réactivé permet d'envisager la restauration de la tour, du téléporteur et l'installation d'une base au cœur de la ville ; les **[[Eldritch Lily|Eldritch Lilies]]** pourraient être cultivées près de [[Queen's Park Garden]].
 - L'Académie demande d'affaiblir les factions adverses pour se ménager une fenêtre d'action. Le **Falling Fire** devient la cible prioritaire ; Olum propose une frappe de décapitation contre **[[Lucretia Mathias]]**, précédée d'une reconnaissance.
-- Le groupe quitte la Garrison par l'eau grâce à *Water Walk* pour éviter le Temple Ward et le Silver Order, et s'approche de **[[Temple Gate]]** à la fin de la séance.
+- Le groupe quitte la Garrison par l'eau grâce à *Water Walk* pour éviter le Temple Ward et le Silver Order, et remonte la rivière en direction de **[[Saint Selina's Monastery]]** à la fin de la séance.
 
 ## Le grimoire de l'Inscrutable Tower
 - Pendant que le groupe marche dans les rues, Salazar prend le temps d'identifier les sorts du grimoire récupéré dans les résidences.
@@ -102,15 +102,15 @@ resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre
 
 ## Factions, artéfacts et pistes
 - **[[Hooded Lanterns]]** : alliés du groupe.
-- **[[Silver Order]]** : affaibli ; ses troupes sont à **[[Temple Gate]]** et à **[[Camp Dawn]]** (transcrit « Camden »). Après le conseil à la [[Cathédrale de Saint Virtuvio]], elles se sont retirées de la cathédrale. **[[Ophelia Reed]]**, *high flame keeper*, détient le **Fell-Flame**.
+- **[[Silver Order]]** : affaibli ; ses troupes sont à **[[Temple Gate]]** et à **[[Camp Dawn]]**. Après le conseil à la [[Cathédrale de Saint Virtuvio]], elles se sont retirées de la cathédrale. **[[Ophelia Reed]]**, *high flame keeper*, détient le **Fell-Flame**.
 - **[[The Queen of Thieves]]** : insaisissable, basée à **[[Buckledown Row]]**. Le groupe a déjà un accord avec elle, a combattu dans les **Fighting Pits** et a utilisé une fiole pour accéder à son repaire.
 - **[[Falling Fire]]** : la faction la plus proche du **[[Le cratère|Cratère]]**. Des **miracles** lui sont attribués ; le délirium y est considéré comme sacré ; des fidèles capables de supporter la contamination y vivent ; des **anges** auraient été invoqués ; plusieurs membres du Silver Order auraient rejoint le Falling Fire. **[[Lucretia Mathias]]** est à l'origine des premiers écrits du mouvement.
 - **Le Cratère** : extrêmement contaminé ; l'Académie n'y envoie jamais ses mages. Près de la météore, la contamination serait pire encore.
-- **Saint Selina's Monastery** : site n° 13. Lors de sa précédente visite au Falling Fire, le groupe y était arrivé en passant par une porte de la ville (transcription peu claire sur le nom de la porte).
+- **[[Saint Selina's Monastery]]** : site n° 13. Lors de sa précédente visite au Falling Fire, le groupe y était arrivé en passant par une porte de la ville (le nom de la porte n'est pas précisé). C'est vers ce site que le groupe se dirige en fin de séance.
 - **Reliques** :
 	- **[[Inscrutable Staff]]** : remis à Eldrich, Salazar reste attuned.
 	- **[[Chancellor's Crest]]** : détenu par **[[Kanye]]**.
-	- **[[Lord Commander's Badge]]** : entre les mains d'**[[Elias Drexel]]** (transcrit « Drexel Killeux »).
+	- **[[Lord Commander's Badge]]** : entre les mains d'**[[Elias Drexel]]**.
 	- **[[Spymaster Signet]]** : le groupe n'a aucune information sur sa localisation ; le MJ refuse de la donner.
 	- **[[Shield of St Virtuvio]]** : au **[[Château de Drakkenheim]]**.
 	- **Fell-Flame** : détenu par Ophelia Reed.
@@ -131,7 +131,7 @@ resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre
 - Pour éviter le **Temple Ward** et le **Silver Order**, il passe par l'extérieur de la ville avec ***Water Walk***, en longeant l'eau.
 - Salazar renonce à demander l'**Inscrutable Staff** pour cette mission de reconnaissance : il ne veut pas avoir l'air d'un agent de l'Académie.
 - Avant le départ, Salazar prononce un discours d'**Inspiring Leader** : **17 PV temporaires** pour tout le groupe.
-- La séance se termine alors que le groupe s'approche de **[[Temple Gate]]** : il s'apprête à traverser par la **rivière**, et non par une porte, mais **un événement se produit à Temple Gate** — la suite à la prochaine séance.
+- La séance se termine alors que le groupe remonte la **rivière** en direction de **[[Saint Selina's Monastery]]** — traversée par l'eau, et non par une porte. Rien ne s'est finalement produit à [[Temple Gate]] ; la suite est consignée dans [[Séance 2026-11-16 — Saint Selina, la crypte et les anges gardiens]].
 
 ## Notes de table
 - Le passage au niveau 12 est justifié par le duel de Gardakonne et par l'énergie accumulée dans la ville.
@@ -142,5 +142,5 @@ resume: Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre
 - [[Jupiter Jones]] · [[Gardakonne]] · [[Olum]] · [[Salazar]] · [[Kanye]] · [[Mike]]
 - [[Inscrutable Tower]] · [[Amethyst Academy]] · [[Eldrich Runeweaver]] · [[Thaya]] · [[Prof. Oupsius]]
 - [[Falling Fire]] · [[Lucretia Mathias]] · [[Silver Order]] · [[Ophelia Reed]] · [[Hooded Lanterns]] · [[The Queen of Thieves]]
-- [[Château de Drakkenheim]] · [[Minazorond]] · [[Slaughterstone Square]] · [[Temple Gate]] · [[Camp Dawn]] · [[Buckledown Row]] · [[Queen's Park Garden]] · [[Le cratère]] · [[Shepard's Gate]] · [[Emberwood Village]] · [[Kingsmoot]] · [[Caspia]]
+- [[Château de Drakkenheim]] · [[Minazorond]] · [[Slaughterstone Square]] · [[Temple Gate]] · [[Saint Selina's Monastery]] · [[Camp Dawn]] · [[Buckledown Row]] · [[Queen's Park Garden]] · [[Le cratère]] · [[Shepard's Gate]] · [[Emberwood Village]] · [[Kingsmoot]] · [[Caspia]]
 - [[Inscrutable Staff]] · [[Chancellor's Crest]] · [[Lord Commander's Badge]] · [[Spymaster Signet]] · [[Shield of St Virtuvio]] · [[Delirium]] · [[Eldritch Lily]] · [[Friedrich von Lichten]]

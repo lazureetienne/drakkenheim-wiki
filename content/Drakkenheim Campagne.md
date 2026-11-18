@@ -6,20 +6,20 @@ tags:
 aliases:
   - Campagne Drakkenheim
   - Drakkenheim (campagne)
-date_maj: 2026-11-02
+date_maj: 2026-11-16
 ---
 # 🎲 Campagne Drakkenheim
 
 > [!info] À propos
 > Notes de **joueur** pour la campagne *Dungeons & Dragons* située à **Drakkenheim**.
 > Groupe : **[[Les Hazebreakers]]**.
-> Dernière séance consignée : **02/11/2026**.
+> Dernière séance consignée : **16/11/2026**.
 > Notes brutes d'origine (import OneNote) : Journal brut (OneNote).
 
 > [!warning] Conventions
 > Ce dossier réorganise le journal brut en notes catégorisées et reliées entre elles.
 > Les faits proviennent **uniquement** du journal d'origine ; les rares points encore flous sont signalés par un callout.
-> **Seconde source** : un **rapport de campagne IA** basé sur la retranscription audio des séances fournit des détails de combat, de butin et de pacte.
+> **Seconde source** : un **rapport de campagne IA** basé sur l'enregistrement audio des séances fournit des détails de combat, de butin et de pacte.
 > **Dates** : format `JJ/MM` → **2025** pour les séances de mars à décembre, puis **2026** (années réelles ; la campagne a commencé en 2025). Les mois « in-game » ne sont pas vraiment comptés.
 > **Joueurs vs personnages** : le journal nomme parfois le **joueur** à la place de son personnage — « Alex » → **[[Kanye]]** (Kanye de l'Ouest) · « Xav » → **[[Salazar]]** · « Félix » → **[[Gardakonne]]** (Garda Von Konne, ♀) · « Laze » → **[[Olum]]** (Olum Arzum) · « Marin » → **[[Mike]]** (Mike Rizzowski) ; MJ : **[[Chris]]** (voir [[Personnages (Drakkenheim)]]).
 > **Fiches de joueurs** : les personnes de la table (MJ et joueurs) ont leur fiche dans **[[Méta/Joueurs/index|Joueurs]]**, sous le dossier [[Méta|Méta]] → `Méta/Joueurs/` ; celles de [[Chris]], [[Xav]], [[Étienne (Laze)|Étienne « Laze »]] et [[Marin]] servent aussi à une autre campagne.
@@ -54,7 +54,8 @@ date_maj: 2026-11-02
 - La **cathédrale de Saint Virtuvio** a été prise puis **abandonnée** par le Silver Order au profit de Temple Gate ; le **Falling Fire** monte en puissance (anges invoqués).
 - **Reprise de l'[[Inscrutable Tower]] (septembre 2026)** : explorée par intermittence depuis janvier 2026, l'exploration reprend activement à partir de septembre. Lobby, gouffre, *Research Level* et **résidences** nettoyés ; le **Nexus** (au-dessus du *Director's Office*) a été découvert — sa réactivation **ouvre des portails** et vise à **rallumer la [[Clock Tower]]**.
 - **Nouvelle entité** : **[[The Whispered Promise]]** (lumière mauve) a confié à **[[Olum]]** la **[[Promised Greataxe]]** — la transformation d'**[[Olyss]]** — à l'[[Inscrutable Tower]] (07/09/2026).
-- **Nexus réactivé (02/11/2026)** : la mission dans l'[[Inscrutable Tower]] est accomplie ; le groupe passe **niveau 12**. Un Archmage muni de l'[[Inscrutable Staff]] pourrait restaurer la tour et son téléporteur, et l'Académie envisage une **base au cœur de la ville**, avec une culture d'[[Eldritch Lily|Eldritch Lilies]] près de [[Queen's Park Garden]]. L'Académie pousse à affaiblir le **Falling Fire** ; le groupe part en reconnaissance vers [[Temple Gate]] — traversée prévue par la **rivière**, pas par une porte —, une frappe contre [[Lucretia Mathias]] étant envisagée ; un **événement se produit à Temple Gate** ([[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
+- **Nexus réactivé (02/11/2026)** : la mission dans l'[[Inscrutable Tower]] est accomplie ; le groupe passe **niveau 12**. Un Archmage muni de l'[[Inscrutable Staff]] pourrait restaurer la tour et son téléporteur, et l'Académie envisage une **base au cœur de la ville**, avec une culture d'[[Eldritch Lily|Eldritch Lilies]] près de [[Queen's Park Garden]]. L'Académie pousse à affaiblir le **Falling Fire** ; le groupe part en reconnaissance vers [[Saint Selina's Monastery]] par la **rivière**, pas par une porte — une frappe contre [[Lucretia Mathias]] étant envisagée ; **rien ne s'est finalement produit à [[Temple Gate]]** (voir [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]]).
+- **Infiltration du monastère (16/11/2026)** : le groupe remonte la **Drann River** en *Water Walk* jusqu'à **[[Saint Selina's Monastery]]** ; le **[[Chancellor's Crest]]** repousse le dragon de bronze de la tour. Après l'escalade de la falaise et l'entrée par le vitrail brisé, les Hazebreakers trouvent **7 chips et 3 fragments de [[Delirium|délirium]]** dans la forge, puis parlementent avec deux **anges gardiens** de la crypte, dont **[[Sainte Lana]]**. Le ***Mind Sliver*** de [[Mike]] fonctionne mais le ***Banishment*** de [[Kanye]] échoue : l'ange dégaine son arme et l'**initiative est renvoyée à la prochaine séance** ([[Séance 2026-11-16 — Saint Selina, la crypte et les anges gardiens]]).
 
 ---
 
@@ -131,14 +132,14 @@ date_maj: 2026-11-02
 ### Dernières séances
 | Fichier | Date | Résumé |
 | --- | --- | --- |
-| [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]] | 2026-11-02 | Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et prépare une reconnaissance contre le Falling Fire. |
+| [[Séance 2026-11-16 — Saint Selina, la crypte et les anges gardiens]] | 2026-11-16 | Les Hazebreakers remontent la Drann River en Water Walk, escaladent la falaise de Saint Selina's Monastery et infiltrent la chapelle puis la crypte ; deux anges gardiens les interpellent, le Mind Sliver porte mais le Banishment échoue et l'initiative est renvoyée à la séance suivante. |
+| [[Séance 2026-11-02 — Le duel caspien et le plan contre le Falling Fire]] | 2026-11-02 | Dans les rues de Drakkenheim, Gardakonne remporte un duel caspien contre Jupiter Jones en tuant un troll de glace, puis le groupe rentre à la Garrison, passe au niveau 12 et part en reconnaissance vers Saint Selina's Monastery. |
 | [[Séance 2026-10-19 — Spectres et apprentis contaminés]] | 2026-10-19 | Dans l'Inscrutable Tower, les Hazebreakers éliminent des spectres et affrontent des apprentis contaminés, avant de revenir dans les rues de Drakkenheim en direction de la Garrison. |
 | [[Séance 2026-10-15 — Les créatures ressortent du portail]] | 2026-10-15 | Le combat au Nexus se conclut ; après un repos court, les Hazebreakers traversent le gouffre de l'Inscrutable Tower et subissent une anomalie arcanique. |
 | [[Séance 2026-09-22 — Le Nexus du Director's Office]] | 2026-09-22 | Au-dessus du Director's Office, les Hazebreakers découvrent le Nexus ; sa réactivation ouvre des portails d'où surgissent des monstres. |
 | [[Séance 2026-09-07 — Entrée et lobby de l'Inscrutable Tower]] | 2026-09-07 | Les Hazebreakers affrontent les monstruosités à l'entrée de l'Inscrutable Tower, puis vainquent ses gardiens dans le lobby. |
 | [[Séance 2026-08-31 — Enfants morts et pourparlers de l'Académie]] | 2026-08-31 | Après la mort de trois enfants tués par des créatures à têtes de requin, la tension monte entre les Hazebreakers et Salazar au sujet du risque pris pour les sauver. |
 | [[Séance 2026-08-24 — Le pacte et les cellules de la Garrison]] | 2026-08-24 | Dans un rêve, le patron warlock de Mike propose une voie alternative au One Who Laughs Last ; la discussion porte sur le Bienveillantisme. |
-| [[Séance 2026-08-18 — Les insectes du Pale Man]] | 2026-08-18 | Les Hazebreakers terrassent Friedrich von Lichten malgré les insectes qui les entravent et rapportent un œuf à Eldrich et Thaya. |
 
 ---
 

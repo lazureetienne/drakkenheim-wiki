@@ -15,7 +15,7 @@ Rapporter la **[[Phylactery of St Virtuvio|phylactery]]** de Saint Virtuvio à *
 
 | Relique | Emplacement connu |
 |---|---|
-| [[Ignacious]] | [[Cathédrale de Saint Virtuvio]] |
+| [[Ignacious]] (épée « Ignatius » de [[Kanye]]) | détenue par [[Kanye]] ; cachée à la [[Cathédrale de Saint Virtuvio]] en mars 2026 |
 | [[Shield of St Virtuvio]] | [[Château de Drakkenheim]] |
 | [[Sceptre of St Virtuvio]] | [[Camp Dawn]] → **volé par la [[The Queen of Thieves|Queen of Thieves]]** |
 | [[Helm of St Virtuvio]] | inconnu |
