@@ -71,3 +71,31 @@ test("mobile navigation controls and links have touch-friendly hit areas", () =>
   assert.match(panels, />\s*\.backlinks\s*>\s*\.backlinks-toggle\s*\{[^}]*min-height:\s*44px/s)
   assert.match(panels, /min-height:\s*44px/)
 })
+
+test("reader mode hides navigation and graphs while keeping an exit control", () => {
+  const reader = styles.slice(
+    styles.indexOf(':root[reader-mode="on"]'),
+    styles.indexOf("// --- Graphe de la page"),
+  )
+
+  assert.match(reader, /max-width:\s*48rem/)
+  assert.match(reader, /grid-template-columns:\s*minmax\(0,\s*1fr\)/)
+  assert.match(reader, /\.sidebar\.left\s*\{[^}]*visibility:\s*hidden/s)
+  assert.match(reader, /\.readermode svg\s*\{[^}]*visibility:\s*visible/s)
+  assert.match(reader, /\.readermode\s*\{[^}]*position:\s*fixed;[^}]*width:\s*44px/s)
+  assert.match(reader, /\.readermode\s*\{[^}]*-webkit-mask:\s*none;[^}]*mask:\s*none/s)
+  assert.match(reader, /\.readermode svg\s*\{[^}]*display:\s*block;[^}]*fill:\s*var\(--dark\)/s)
+  assert.match(reader, /\.readermode:hover svg\s*\{[^}]*fill:\s*var\(--secondary\)/s)
+  assert.match(reader, /\.readermode:focus-visible\s*\{[^}]*outline:/s)
+  assert.match(
+    reader,
+    /\.sidebar\.right,[\s\S]*?\.center\s*>\s*\.toc,[\s\S]*?\.graph\s*\{[^}]*display:\s*none/s,
+  )
+})
+
+test("reader mode disables the theme's sidebar hover background", () => {
+  assert.match(
+    styles,
+    /:root\[reader-mode="on"\]\[saved-theme\][\s\S]*?\.page\.page:has\(\s*div\.sidebar\.left:hover\s*\)[\s\S]*?\.page\.page:has\(\s*div\.sidebar\.right:hover\s*\)\s*\{[^}]*background-image:\s*none/s,
+  )
+})

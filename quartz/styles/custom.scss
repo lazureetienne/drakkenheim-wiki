@@ -2,6 +2,91 @@
 
 // put your custom CSS here!
 
+// Le thème colore la moitié de la page au survol d'une barre latérale.
+:root[reader-mode="on"][saved-theme]
+  body[data-slug]
+  div#quartz-root.page.page:has(div.sidebar.left:hover),
+:root[reader-mode="on"][saved-theme]
+  body[data-slug]
+  div#quartz-root.page.page:has(div.sidebar.right:hover) {
+  background-image: none;
+}
+
+// Conserver la commande de sortie tout en retirant la navigation de la lecture.
+:root[reader-mode="on"] div#quartz-root.page > div#quartz-body {
+  box-sizing: border-box;
+  width: min(100%, 48rem);
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "grid-center"
+    "grid-footer";
+
+  .center,
+  footer {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sidebar.left {
+    position: fixed;
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 1;
+    visibility: hidden;
+  }
+
+  .sidebar.left .readermode,
+  .sidebar.left .readermode svg {
+    visibility: visible;
+  }
+
+  .sidebar.left .readermode {
+    position: fixed;
+    z-index: 10;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 0.5rem;
+    background: var(--light);
+    box-shadow: 0 0 0 1px var(--lightgray);
+    -webkit-mask: none;
+    mask: none;
+  }
+
+  .sidebar.left .readermode svg {
+    display: block;
+    left: 12px;
+    fill: var(--dark);
+    stroke: var(--dark);
+  }
+
+  .sidebar.left .readermode:hover svg {
+    fill: var(--secondary);
+    stroke: var(--secondary);
+  }
+
+  .sidebar.left .readermode:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 3px;
+  }
+
+  .sidebar.right,
+  .center > .toc,
+  .graph {
+    display: none;
+  }
+}
+
 // --- Graphe de la page d'accueil -------------------------------------------------
 // Le graphe placé dans le corps de page (position `afterBody`) est rendu dans
 // `.page-footer` : on agrandit son cadre, qui fait 250px par défaut (taille

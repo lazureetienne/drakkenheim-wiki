@@ -836,7 +836,12 @@ import {
           return;
         }
 
-        if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
+        if (
+          e.key === "g" &&
+          (e.ctrlKey || e.metaKey) &&
+          !e.shiftKey &&
+          document.documentElement.getAttribute("reader-mode") !== "on"
+        ) {
           e.preventDefault();
           toggleGlobalGraph();
         }
@@ -869,5 +874,12 @@ import {
       }
     }
     document.addEventListener("themechange", handleThemeChange);
+    document.addEventListener("readermodechange", function (event) {
+      if (event.detail.mode === "on") {
+        hideGlobalGraph();
+      } else {
+        renderLocal();
+      }
+    });
   }
 })();
