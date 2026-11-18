@@ -37,7 +37,7 @@ Ce projet s'appuie sur Quartz v5, mais ne se limite pas à remplacer le dossier 
 
 - **Configuration du site** : [quartz.config.yaml](./quartz.config.yaml) définit notamment le titre, la langue française, l'adresse GitHub Pages, les extensions et leur disposition.
 - **Navigation et graphe** : [quartz.ts](./quartz.ts) enregistre des composants locaux. L'explorateur impose un ordre adapté à la campagne; le graphe peut masquer des notes par étiquette et des dossiers entiers, notamment les séances, pour rester lisible. L'accueil dispose d'une vue du graphe adaptée.
-- **Interface** : des composants locaux rendent les liens retour repliables et adaptent la table des matières. Le mode lecture masque la navigation et les graphes pour afficher le texte dans une colonne centrée, avec un bouton pour revenir à l'affichage normal. Des styles personnalisés améliorent notamment la navigation sur mobile et tablette; l'icône du site a également été remplacée.
+- **Interface** : des composants locaux rendent les liens retour repliables et adaptent la table des matières. Le mode lecture masque la navigation et les graphes pour afficher le texte dans une colonne centrée plus large et avec un interligne plus aéré, avec un bouton pour revenir à l'affichage normal. Des styles personnalisés améliorent notamment la navigation sur mobile et tablette; l'icône du site a également été remplacée.
 - **Publication** : les workflows génériques de Quartz ont été remplacés ici par un [workflow de déploiement GitHub Pages](./.github/workflows/deploy-drakkenheim-pages.yaml) adapté au dépôt.
 - **Import local** : les scripts PowerShell propres au coffre préparent et vérifient les notes avant leur publication. Ils sont locaux et ignorés par Git; ils ne sont pas inclus dans ce dépôt.
 

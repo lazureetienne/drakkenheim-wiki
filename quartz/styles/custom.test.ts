@@ -78,7 +78,14 @@ test("reader mode hides navigation and graphs while keeping an exit control", ()
     styles.indexOf("// --- Graphe de la page"),
   )
 
-  assert.match(reader, /max-width:\s*48rem/)
+  assert.match(reader, /div#quartz-root\.page\s*\{\s*max-width:\s*none;/)
+  assert.match(reader, /width:\s*min\(100%,\s*max\(60rem,\s*calc\(67vw \+ 2\.5rem\)\)\)/)
+  assert.match(reader, /max-width:\s*100%/)
+  assert.match(reader, /\.center\s*\{\s*padding:\s*0;/)
+  assert.match(
+    reader,
+    /@media all and \(max-width:\s*68rem\)\s*\{\s*padding-right:\s*calc\(44px \+ 2rem\)/,
+  )
   assert.match(reader, /grid-template-columns:\s*minmax\(0,\s*1fr\)/)
   assert.match(reader, /\.sidebar\.left\s*\{[^}]*visibility:\s*hidden/s)
   assert.match(reader, /\.readermode svg\s*\{[^}]*visibility:\s*visible/s)
@@ -98,4 +105,14 @@ test("reader mode disables the theme's sidebar hover background", () => {
     styles,
     /:root\[reader-mode="on"\]\[saved-theme\][\s\S]*?\.page\.page:has\(\s*div\.sidebar\.left:hover\s*\)[\s\S]*?\.page\.page:has\(\s*div\.sidebar\.right:hover\s*\)\s*\{[^}]*background-image:\s*none/s,
   )
+})
+
+test("reader mode increases prose spacing without changing nested code blocks", () => {
+  const reader = styles.slice(
+    styles.indexOf(':root[reader-mode="on"] div#quartz-root.page'),
+    styles.indexOf("// --- Graphe de la page"),
+  )
+
+  assert.match(reader, /\.center article p,\s*\.center article li\s*\{\s*line-height:\s*1\.7;/)
+  assert.match(reader, /\.center article li pre\s*\{\s*line-height:\s*1\.6rem;/)
 })

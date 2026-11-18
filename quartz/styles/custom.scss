@@ -13,10 +13,15 @@
 }
 
 // Conserver la commande de sortie tout en retirant la navigation de la lecture.
+:root[reader-mode="on"] div#quartz-root.page {
+  max-width: none;
+}
+
 :root[reader-mode="on"] div#quartz-root.page > div#quartz-body {
   box-sizing: border-box;
-  width: min(100%, 48rem);
-  max-width: 48rem;
+  // The added space accounts for the two 1.25rem gutters around the text.
+  width: min(100%, max(60rem, calc(67vw + 2.5rem)));
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 1.25rem;
   grid-template-columns: minmax(0, 1fr);
@@ -24,6 +29,10 @@
   grid-template-areas:
     "grid-center"
     "grid-footer";
+
+  @media all and (max-width: 68rem) {
+    padding-right: calc(44px + 2rem);
+  }
 
   .center,
   footer {
@@ -33,6 +42,19 @@
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .center {
+    padding: 0;
+  }
+
+  .center article p,
+  .center article li {
+    line-height: 1.7;
+  }
+
+  .center article li pre {
+    line-height: 1.6rem;
   }
 
   .sidebar.left {
